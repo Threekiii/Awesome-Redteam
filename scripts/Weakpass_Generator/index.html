@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weakpass password generator</title>
+<link rel="stylesheet" href="css/bulma.min.css">
+<script src="js/d0ae4a42e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="section">
+<div class="container">
+  
+  
+
+</div>
+</section>
+<section class="section pt-1">
+
+<div class="container">
+<h1 class="title">Weakpass Password Generator</h1>
+<h1 class="title">弱密码生成器</h1>
+<div class="content">
+<p>
+    在这里你可以根据特定的输入数据生成一个弱密码词表。
+    例如，通过输入 <strong>Whoami.corp</strong>，您将获得一个可能的密码列表，如 <strong>Whoami.corp2018!</strong>、<strong>Whoami.corp123</strong> 等。所有数据都将在客户端使用 JavaScript 进行处理。</p>
+<p>
+    您可以使用 <a href="https://hashcat.net/wiki/doku.php?id=rule_based_attack">hashcat rules</a> 生成单词表。默认情况下，生成器将使用默认规则，您可以在此处找到这些规则或单击<strong>“显示规则”</strong>。
+</p> 
+
+
+<p>在 <a href="https://github.com/zzzteph/weakpass">Github</a> 或 <a href="https://zzzteph.github.io/weakpass/"> github.io 页面</a>关注该项目。</p>
+
+
+</div>
+
+
+
+<div class="field">
+  <label class="label">Words</label>
+   <p class="help">
+    以逗号、空格或换行符分隔</p>
+  <div class="control">
+    <textarea class="textarea is-primary"  id="input" placeholder="Put words of interest here..."></textarea> 
+  </div>
+</div>
+
+<div class="field is-grouped">
+  <div class="control">
+    <label class="checkbox">
+      <input type="checkbox" id="hideRules" onchange="hideRules()">
+      显示默认规则
+    </label>
+  </div>
+  
+    <div class="control">
+    <label class="checkbox">
+      <input type="checkbox" id="filterWiFi" onchange="generate()">
+      生成WI-FI密码
+    </label>
+  </div>
+  
+  
+</div>
+
+
+<div class="field" id="ruleBox">
+  <label class="label">Rules</label>
+  <div class="control">
+    <textarea class="textarea is-primary"  id="rules" rows="25" placeholder="Rules">
+:
+c
+u
+C
+##append numbers 1...5
+$1
+$2
+$3
+$4
+$5
+$6
+$7
+$8
+$9
+$0
+$1 $2 $3
+$1 $2 $3 $4
+$1 $2 $3 $4 $5
+$1 $2 $3 $4 $5 $6
+##current year 2018-2022
+$2 $0 $1 $8
+$2 $0 $1 $9
+$2 $0 $2 $0
+$2 $0 $2 $1
+$2 $0 $2 $2
+#years or month
+$0 $1
+$0 $2
+$0 $3
+$0 $4
+$0 $5
+$0 $6
+$0 $7
+$0 $8
+$0 $9
+$1 $0
+$1 $1
+$1 $2
+$1 $3
+$1 $4
+$1 $5
+$1 $6
+$1 $7
+$1 $8
+$1 $9
+$2 $0
+$2 $1
+$2 $2
+$2 $3
+$2 $4
+$2 $5
+$2 $6
+$2 $7
+$2 $8
+$2 $9
+$3 $0
+$3 $1
+##append sepcial chars
+$!
+$@
+$#
+$$
+$! $@
+$! $@ $#
+$! $@ $# $$
+##special chars + numbers
+$1 $2 $3 $!
+$! $1 $2 $3
+$1 $@ !#
+$! $@ 1#
+##special chars + years
+$2 $0 $1 $8 $!
+$2 $0 $1 $9 $!
+$2 $0 $2 $0 $!
+$2 $0 $2 $1 $!
+$2 $0 $2 $2 $!
+$! $2 $0 $1 $8
+$! $2 $0 $1 $9
+$! $2 $0 $2 $0
+$! $2 $0 $2 $1
+$! $2 $0 $2 $2
+$2 $0 $1 $8 $! $@ $#
+$2 $0 $1 $9 $! $@ $#
+$2 $0 $2 $0 $! $@ $#
+$2 $0 $2 $1 $! $@ $#
+$2 $0 $2 $2 $! $@ $#
+$0 $1 $! 
+$0 $2 $!
+$0 $3 $!
+$0 $4 $!
+$0 $5 $!
+$0 $6 $!
+$0 $7 $!
+$0 $8 $!
+$0 $9 $!
+$1 $0 $!
+$1 $1 $!
+$1 $2 $!
+$1 $3 $!
+$1 $4 $!
+$1 $5 $!
+$1 $6 $!
+$1 $7 $!
+$1 $8 $!
+$1 $9 $!
+$2 $0 $!
+$2 $1 $!
+$2 $2 $!
+$2 $3 $!
+$2 $4 $!
+$2 $5 $!
+$2 $6 $!
+$2 $7 $!
+$2 $8 $!
+$2 $9 $!
+$3 $0 $!
+$3 $1 $!
+#all above cap
+c $1
+c $2
+c $3
+c $4
+c $5
+c $6
+c $7
+c $8
+c $9
+c $0
+c $1 $2 $3
+c $1 $2 $3 $4
+c $1 $2 $3 $4 $5
+c $1 $2 $3 $4 $5 $6
+c $2 $0 $1 $8
+c $2 $0 $1 $9
+c $2 $0 $2 $0
+c $2 $0 $2 $1
+c $2 $0 $2 $2
+c $!
+c $@
+c $#
+c $$
+c $! $@
+c $! $@ $#
+c $! $@ $# $$
+c $1 $2 $3 $!
+c $! $1 $2 $3
+c $1 $@ !#
+c $! $@ 1#
+c $2 $0 $1 $8 $!
+c $2 $0 $1 $9 $!
+c $2 $0 $2 $0 $!
+c $2 $0 $2 $1 $!
+c $2 $0 $2 $2 $!
+c $! $2 $0 $1 $8
+c $! $2 $0 $1 $9
+c $! $2 $0 $2 $0
+c $! $2 $0 $2 $1
+c $! $2 $0 $2 $2
+c $2 $0 $1 $8 $! $@ $#
+c $2 $0 $1 $9 $! $@ $#
+c $2 $0 $2 $0 $! $@ $#
+c $2 $0 $2 $1 $! $@ $#
+c $2 $0 $2 $2 $! $@ $#
+c $0 $1 $! 
+c $0 $2 $!
+c $0 $3 $!
+c $0 $4 $!
+c $0 $5 $!
+c $0 $6 $!
+c $0 $7 $!
+c $0 $8 $!
+c $0 $9 $!
+c $1 $0 $!
+c $1 $1 $!
+c $1 $2 $!
+c $1 $3 $!
+c $1 $4 $!
+c $1 $5 $!
+c $1 $6 $!
+c $1 $7 $!
+c $1 $8 $!
+c $1 $9 $!
+c $2 $0 $!
+c $2 $1 $!
+c $2 $2 $!
+c $2 $3 $!
+c $2 $4 $!
+c $2 $5 $!
+c $2 $6 $!
+c $2 $7 $!
+c $2 $8 $!
+c $2 $9 $!
+c $3 $0 $!
+c $3 $1 $!
+c $0 $1
+c $0 $2
+c $0 $3
+c $0 $4
+c $0 $5
+c $0 $6
+c $0 $7
+c $0 $8
+c $0 $9
+c $1 $0
+c $1 $1
+c $1 $2
+c $1 $3
+c $1 $4
+c $1 $5
+c $1 $6
+c $1 $7
+c $1 $8
+c $1 $9
+c $2 $0
+c $2 $1
+c $2 $2
+c $2 $3
+c $2 $4
+c $2 $5
+c $2 $6
+c $2 $7
+c $2 $8
+c $2 $9
+c $3 $0
+c $3 $1
+</textarea> 
+  </div>
+</div>
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link" onclick="generate()">Generate</button>
+  </div>
+  <div class="control">
+    <button class="button is-success" onclick="copy()">Copy to clipboard</button>
+	<p class="help" id="notify" >Copied!</p>
+  </div>
+  
+</div>
+
+
+<div class="field">
+  <label class="label" id="count">Result</label>
+  <div class="control">
+    <textarea class="textarea is-primary" id="result" rows="25"></textarea> 
+  </div>
+</div>
+
+
+
+<script>
+
+function convertN(chr) {
+
+    if (chr >= '0' && chr <= '9') {
+        return Number(chr);
+    }
+    return Number(chr.toUpperCase().charCodeAt(0) - 55);
+
+}
+
+function Nothing(string) {
+    return string;
+}
+
+function Lowercase(string) {
+    return string.toLowerCase();
+}
+
+function Uppercase(string) {
+    return string.toUpperCase();
+}
+
+function Capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
+function InvertCapitalize(string) {
+    return string.charAt(0).toLowerCase() + string.slice(1).toUpperCase();
+}
+
+function TogglePosition(string, pos) {
+
+    if (isNaN(parseInt(pos)))
+        pos = convertN(pos);
+    if (string.charAt(pos) === string.charAt(pos).toUpperCase()) {
+        return string.slice(0, pos) + string.charAt(pos).toLowerCase() + string.slice(pos + 1);
+    }
+    if (string.charAt(pos) === string.charAt(pos).toLowerCase()) {
+        return string.slice(0, pos) + string.charAt(pos).toUpperCase() + string.slice(pos + 1);
+    }
+}
+
+function ToggleCase(string) {
+    for (var i = 0; i < string.length; i++) {
+        string = TogglePosition(string, i);
+    }
+    return string;
+}
+
+
+function Reverse(string) {
+    return string.split('').reverse().join('');
+}
+
+
+function Duplicate(string) {
+    return string + string;
+}
+
+function DuplicateN(string, n) {
+    var tmp = "";
+    n = convertN(n);
+    for (var i = 0; i < n; i++) {
+        tmp += string;
+    }
+    return tmp;
+}
+
+function Reflect(string) {
+    return string + Reverse(string);
+}
+
+function RotateLeft(string) {
+    return string.slice(1) + string.charAt(0);
+}
+
+
+function RotateRight(string) {
+    return string.charAt(string.length - 1) + string.slice(0, string.length - 1);
+}
+
+function AppendCharacter(string, chr) {
+    return string + chr;
+}
+
+function PrependCharacter(string, chr) {
+    return chr + string;
+}
+
+function TruncateLeft(string) {
+    return string.slice(1);
+}
+
+function TruncateRight(string) {
+    return string.slice(0, string.length - 1);
+}
+
+
+function DeleteN(string, n) {
+    n = convertN(n);
+    return string.slice(0, n) + string.slice(n + 1);
+}
+
+
+
+function ExtractRange(string, start, end) {
+    start = convertN(start);
+    end = convertN(end);
+    return string.slice(start, end);
+}
+
+function OmitRange(string, start, end) {
+    start = convertN(start);
+    end = convertN(end);
+    return string.slice(0, start) + string.slice(start + end);
+}
+
+function InsertN(string, n, chr) {
+    n = convertN(n);
+    return string.slice(0, n) + chr + string.slice(n);
+}
+
+function OverwriteN(string, n, chr) {
+    n = convertN(n);
+    if (n >= string.length) return string;
+    return string.slice(0, n) + chr + string.slice(n + 1);
+}
+
+function TruncateN(string, n) {
+    return string.slice(0, n);
+}
+
+
+function Replace(string, find, replace) {
+    return string.replaceAll(find, replace);
+}
+
+
+function Purge(string, chr) {
+    return Replace(string, chr, '');
+}
+
+function DuplicateFirstN(string, n) {
+    return DuplicateN(string.charAt(0), n) + string;
+}
+
+function DuplicateLastN(string, n) {
+    if (string.length === 0) return string;
+    return string + DuplicateN(string.charAt(string.length - 1), n);
+}
+
+function DuplicateAll(string) {
+    var result = '';
+    var length = string.length;
+    for (var i = 0; i < length; i++) {
+        result += string.charAt(i) + string.charAt(i);
+    }
+    return result;
+}
+
+function applyRule(string, rule) {
+    if (rule.trim().charAt(0) === '#') return false;
+    if (rule.trim().length === 0) return false;
+    for (var i = 0; i < rule.length;) {
+        switch (rule.charAt(i)) {
+            case ':':
+                string = Nothing(string);
+                i++;
+                break;
+            case 'l':
+                string = Lowercase(string);
+                i++;
+                break;
+            case 'u':
+                string = Uppercase(string);
+                i++;
+                break;
+            case 'c':
+                string = Capitalize(string);
+                i++;
+                break;
+            case 'C':
+                string = InvertCapitalize(string);
+                i++;
+                break;
+            case 't':
+                string = ToggleCase(string);
+                i++;
+                break;
+            case 'T':
+                string = TogglePosition(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case 'r':
+                string = Reverse(string);
+                i++;
+                break;
+            case 'd':
+                string = Duplicate(string);
+                i++;
+                break;
+            case 'p':
+                string = DuplicateN(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case 'f':
+                string = Reflect(string);
+                i++;
+                break;
+            case '{':
+                string = RotateLeft(string);
+                i++;
+                break;
+            case '}':
+                string = RotateRight(string);
+                i++;
+                break;
+            case '$':
+                string = AppendCharacter(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case '^':
+                string = PrependCharacter(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case '[':
+                string = TruncateLeft(string);
+                i++;
+                break;
+            case ']':
+                string = TruncateRight(string);
+                i++;
+                break;
+            case 'D':
+                string = DeleteN(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case 'x':
+                string = ExtractRange(string, rule.charAt(i + 1), rule.charAt(i + 2));
+                i += 3;
+                break;
+            case 'O':
+                string = OmitRange(string, rule.charAt(i + 1), rule.charAt(i + 2));
+                i += 3;
+                break;
+            case 'i':
+                string = InsertN(string, rule.charAt(i + 1), rule.charAt(i + 2));
+                i += 3;
+                break;
+            case 'o':
+                string = OverwriteN(string, rule.charAt(i + 1), rule.charAt(i + 2));
+                i += 3;
+                break;
+            case '\'':
+                string = TruncateN(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case 's':
+                string = Replace(string, rule.charAt(i + 1), rule.charAt(i + 2));
+                i += 3;
+                break;
+            case '@':
+                string = Purge(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case 'z':
+                string = DuplicateFirstN(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case 'Z':
+                string = DuplicateLastN(string, rule.charAt(i + 1));
+                i += 2;
+                break;
+            case 'q':
+                string = DuplicateAll(string);
+                i++;
+                break;
+            default:
+                i++;
+                break;
+        }
+
+
+
+    }
+
+    return string;
+
+}
+
+function generate() {
+
+    var data = document.getElementById("input").value.split(/[\s,]+/).filter((v, i, a) => a.indexOf(v) === i).filter(function(e) {
+        return e === 0 || e
+    });
+    var rules = document.getElementById("rules").value.split("\n");
+    var list = new Set();;
+    var filterWiFi = document.getElementById('filterWiFi').checked;
+    for (let string of data) {
+        for (let rule of rules) {
+            var ruleResult = applyRule(string, rule);
+            if (ruleResult !== false) {
+                if (filterWiFi) {
+                    if (ruleResult.length < 8) continue;
+                }
+                list.add(ruleResult);
+            }
+        }
+    }
+
+    var resultArea = document.getElementById('result');
+    document.getElementById('count').innerText = "Result: " + list.size;
+    resultArea.value = '';
+    for (let string of list) {
+
+        resultArea.value += string + '\n';
+    }
+}
+
+function hideRules() {
+    if (document.getElementById('hideRules').checked) {
+        document.getElementById('ruleBox').hidden = false;
+    } else
+        document.getElementById('ruleBox').hidden = true;
+}
+
+function copy() {
+  document.getElementById("result").select();
+  document.execCommand("copy");
+  document.getElementById('notify').style.display = 'block';
+
+  setTimeout(function() { document.getElementById('notify').style.display = 'none'; },5000); 
+}
+
+hideRules();
+document.getElementById('notify').style.display = 'none';
+</script>
+
+
+ </div>
+
+</section>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Weakpass</strong> 2014-2021 <br/>
+ <br/>
+   </p>
+   <p>Github项目地址：https://github.com/zzzteph/weakpass</p>
+	<div>
+</div>
+
+  </div>
+</footer>
+	
+  </body>
+
+</html>
