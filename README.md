@@ -441,6 +441,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - Fofa Viewer: https://github.com/wgpsec/fofa_viewer
 - ENScan_GO: https://github.com/wgpsec/ENScan_GO
 - Amass: https://github.com/owasp-amass/amass
+- ApolloScanner: https://github.com/b0bac/ApolloScanner
 
 ### IP/域名/子域名 _IP/Domain/Subdomain_
 
@@ -749,8 +750,9 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ### 信息泄露 _Information Disclosure_
 
-- GitHack(py3): https://github.com/lijiejie/GitHack .git folder disclosure exploit
-- GitHack(py2 or upgrade the code): https://github.com/BugScanTeam/GitHack .git folder disclosure exploit(recommand)
+- trufflehog: https://github.com/trufflesecurity/trufflehog find, verify, and analyze leaked credentials
+- git-dumper: https://github.com/arthaud/git-dumper
+- gitleaks: https://github.com/gitleaks/gitleaks
 - dvcs-ripper: https://github.com/kost/dvcs-ripper .svn、.hg、.cvs disclosure
 - ds_store_exp: https://github.com/lijiejie/ds_store_exp .DS_Store disclosure
 - Hawkeye: https://github.com/0xbug/Hawkeye gitHub sensitive information leakage monitor Spider
@@ -980,6 +982,7 @@ Spring **Boot**
 - https://github.com/Cherrison/CrackMinApp
 - https://github.com/mrknow001/API-Explorer ak/sk for X
 - https://github.com/eeeeeeeeee-code/e0e1-wx
+- https://github.com/wux1an/wxapkg
 
 #### 应用程序 _APK_
 
@@ -1004,6 +1007,7 @@ Spring **Boot**
 ### 基础设施 _Infrastructure_
 
 - f8x: https://github.com/ffffffff0x/f8x red/blue team environment automation deployment tool
+- openvpn-install: https://github.com/hwdsl2/openvpn-install OpenVPN server installer for x
 - cloudreve: https://github.com/cloudreve/Cloudreve self-hosted file management system with muilt-cloud support
 - updog: https://github.com/sc0tfree/updog uploading and downloading via HTTP/S
 - mattermost: https://github.com/mattermost/mattermost
@@ -1015,6 +1019,7 @@ Spring **Boot**
 
 - netspy: https://github.com/shmilylty/netspy intranet segment spy
 - SharpHostInfo: https://github.com/shmilylty/SharpHostInfo
+- SharpScan: https://github.com/INotGreen/SharpScan
 
 ### 凭证获取 _Credential Access_
 
@@ -1433,8 +1438,8 @@ Spring **Boot**
 
 #### AK/SK 利用 _AK/SK Exploit_
 
-- https://github.com/trufflesecurity/trufflehog find, verify, and analyze leaked credentials
 - https://wiki.teamssix.com/cf/ exploit framework v0.5.0(open source)
+- https://github.com/wgpsec/cloudsword
 - https://github.com/CloudExplorer-Dev/CloudExplorer-Lite fit2cloud CloudExplorer
 - https://github.com/mrknow001/aliyun-accesskey-Tools
 - https://github.com/iiiusky/alicloud-tools
@@ -1465,10 +1470,16 @@ Spring **Boot**
 
 - https://kubernetes.io/docs/tasks/tools/
 - https://github.com/etcd-io/etcd
+- https://github.com/kubernetes/minikube for local clusters
+- https://github.com/kubernetes-sigs/kind for local clusters
+- https://github.com/kubernetes/kubeadm for deploying production or staging clusters
+- https://github.com/kubernetes-sigs/cri-tools Kubelet Container Runtime Interface (CRI)
 - https://github.com/derailed/k9s kubernetes cli
 - https://github.com/lightspin-tech/red-kube redteam k8s adversary emulation based on kubectl
 - https://github.com/DataDog/KubeHound tool for building kubernetes attack paths
 - https://github.com/inguardians/peirates kubernetes pentest tool
+- https://github.com/docker/docker-bench-security Docker CIS benchmarks analysis
+- https://github.com/aquasecurity/kube-bench Kubernetes CIS benchmarks analysis
 
 ## AI 安全 _AI Security_
 
