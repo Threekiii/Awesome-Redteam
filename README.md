@@ -898,6 +898,9 @@ Spring **Boot**
 - domain hunter: https://github.com/bit4woo/domain_hunter_pro domain hunter
 - BurpAppletPentester: https://github.com/mrknow001/BurpAppletPentester sessionkey decryptor
 
+#### Yakit
+
+- HaeToYakit: https://github.com/youmulijiang/HaeToYakit
 ### 辅助工具 _Auxiliary Tools_
 
 #### 工具集 _Open-Source Toolkit_
