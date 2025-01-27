@@ -426,6 +426,18 @@ Flask_Session_Decryptor: Flask session注入解密
 
 - https://github.com/WesleyWong420/OPSEC-Tradecraft
 
+#### 实战平台 _Learning and Practice Platforms_
+
+- Cybrary: https://www.cybrary.it/
+- HacktheBox: https://www.hackthebox.com/
+- TryHackMe: https://tryhackme.com/
+- Try2Hack: https://try2hack.me/
+- Vulnmachines: https://www.vulnmachines.com/
+- RangeForce: https://www.rangeforce.com/
+- Root Me: https://www.root-me.org/
+- ichunqiu: https://yunjing.ichunqiu.com/
+- echoCTF: https://github.com/echoCTF/echoCTF.RED for CTF
+
 ## 信息收集 _Reconnaissance_
 
 ### 综合工具 _Nice Tools_
@@ -651,8 +663,7 @@ Flask_Session_Decryptor: Flask session注入解密
 #### 综合漏洞 _Comprehensive Vulnerabilities_
 
 - Vulhub: https://vulhub.org/
-- ichunqiu: https://yunjing.ichunqiu.com/
-- HackTheBox: https://www.hackthebox.com/
+- PortSwigger Web Security Academy: https://portswigger.net/web-security
 - OWASP Top10: https://owasp.org/www-project-juice-shop/
 - Vulstudy: https://github.com/c0ny1/vulstudy 17 platform based on docker
 - Vulfocus: https://github.com/fofapro/vulfocus
@@ -901,6 +912,7 @@ Spring **Boot**
 #### Yakit
 
 - HaeToYakit: https://github.com/youmulijiang/HaeToYakit
+
 ### 辅助工具 _Auxiliary Tools_
 
 #### 工具集 _Open-Source Toolkit_
@@ -1398,6 +1410,7 @@ Spring **Boot**
 - lzCloudSecurity:
 	- https://github.com/EvilAnne/lzCloudSecurity
 	- https://lzcloudsecurity.gitbook.io/yun-an-quan-gong-fang-ru-men/
+- CSA Research: https://c-csa.cn/research/results/
 - HackTricks Cloud: https://cloud.hacktricks.xyz/
 - Awesome-CloudSec-Labs: https://github.com/iknowjason/Awesome-CloudSec-Labs
 - Aliyun OpenAPI: https://next.api.aliyun.com/api/
@@ -1413,6 +1426,8 @@ Spring **Boot**
 
 ### 云漏洞环境 _Vulnerable Cloud Environments_
 
+- Awesome-CloudSec-Labs: https://github.com/iknowjason/Awesome-CloudSec-Labs
+- K8s Lan Party: https://www.k8slanparty.com/
 - Metarget: https://github.com/Metarget/metarget
 - TerraformGoat: https://github.com/HXSecurity/TerraformGoat
 - Kubernetes Goat: https://github.com/madhuakula/kubernetes-goat
