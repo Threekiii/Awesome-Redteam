@@ -1422,6 +1422,7 @@ Spring **Boot**
 - https://attack.mitre.org/matrices/enterprise/cloud/
 - https://cloudsec.huoxian.cn/
 - https://cloudsec.tencent.com/home/
+- https://owasp.org/www-project-kubernetes-top-ten/ OWASP Kubernetes Top Ten - 2022
 - https://www.microsoft.com/en-us/security/blog/2021/03/23/secure-containerized-environments-with-updated-threat-matrix-for-kubernetes/ threat matrix for Kubernetes
 
 ### 云漏洞环境 _Vulnerable Cloud Environments_
@@ -1524,7 +1525,9 @@ Spring **Boot**
 - huggingface: https://huggingface.co/ 大型语言模型下载（AI 界 Github ）
 - ollama: https://github.com/ollama/ollama 启动并运行大型语言模型
 - open-webui: https://github.com/open-webui/open-webui 离线 WebUI
-- enchanted: https://github.com/AugustDev/enchanted 将私有模型部署为应用程序
+- chatbox: https://github.com/Bin-Huang/chatbox User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...) 本地客户端 for MacOS/Windows/Linux
+- anythingllm: https://anythingllm.com/ Run local LLMs fast with powerful built-in tools and features. 本地客户端 for MacOS/Windows/Linux
+- enchanted: https://github.com/AugustDev/enchanted Enchanted is used for chatting with private self hosted language models. 本地客户端 for iOS/MacOS
 
 如果你想通过 ollama 在**本地**快速部署 LLM，可以参考这套技术栈：
 
