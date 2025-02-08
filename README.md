@@ -720,12 +720,15 @@ Flask_Session_Decryptor: Flask session注入解密
 #### Java
 
 - https://github.com/frohoff/ysoserial
+- https://github.com/Y4er/ysoserial
+- https://github.com/wh1t3p1g/ysomap
 - https://github.com/mbechler/marshalsec
 - https://github.com/qi4L/JYso
 - https://github.com/welk1n/JNDI-Injection-Exploit
 - https://github.com/WhiteHSBG/JNDIExploit
 - https://github.com/rebeyond/JNDInjector
 - https://github.com/A-D-Team/attackRmi
+- https://github.com/Java-Chains/web-chains
 
 #### PHP
 
@@ -1035,6 +1038,7 @@ Spring **Boot**
 - netspy: https://github.com/shmilylty/netspy intranet segment spy
 - SharpHostInfo: https://github.com/shmilylty/SharpHostInfo
 - SharpScan: https://github.com/INotGreen/SharpScan
+- smbmap: https://github.com/ShawnDEvans/smbmap SMB enumeration
 
 ### 凭证获取 _Credential Access_
 
@@ -1078,10 +1082,11 @@ Spring **Boot**
 #### 综合工具 _Nice Tools_
 
 - https://github.com/rapid7/metasploit-framework
-- https://github.com/byt3bl33d3r/CrackMapExec
+- https://github.com/byt3bl33d3r/CrackMapExec 👍
 - https://github.com/Pennyw0rth/NetExec
-- https://github.com/fortra/impacket AV Evasion based on wmiexec.py
-- https://github.com/XiaoliChan/wmiexec-Pro
+- https://github.com/fortra/impacket 👍
+- https://github.com/ghost-ng/slinger An impacket-lite cli tool that combines many useful impacket functions using a single session.
+- https://github.com/XiaoliChan/wmiexec-Pro AV Evasion based on wmiexec.py
 - https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
 - https://github.com/GhostPack/Rubeus
 - https://github.com/Kevin-Robertson/Powermad
@@ -1183,6 +1188,7 @@ Spring **Boot**
 - AV_Evasion_Tool: https://github.com/1y0n/AV_Evasion_Tool
 - shellcodeloader: https://github.com/knownsec/shellcodeloader
 - tasklist/systeminfo: https://www.shentoushi.top/av/av.php
+- rpeloader: https://github.com/Teach2Breach/rpeloader 在没有安装的情况下在 Windows 上使用 Python
 
 ### 内网穿透 _Proxy_
 
