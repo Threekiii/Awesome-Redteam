@@ -12,181 +12,185 @@
 
 ## 目录 _Contents_
 
-- [Roadmap](#roadmap)
-- [目录 Contents](#目录-contents)
-- [项目导航 Project Navigation](#项目导航-project-navigation)
-	- [速查文档 CheatSheets](#速查文档-cheatsheets)
-	- [一些代码 Scripts](#一些代码-scripts)
-	- [攻防知识 Tips](#攻防知识-tips)
-- [开源导航 Open-Source Navigation](#开源导航-open-source-navigation)
-	- [编解码/加解密 Cryptography](#编解码加解密-cryptography)
-		- [在线工具 Online Tools](#在线工具-online-tools)
-		- [离线工具 Offline Tools](#离线工具-offline-tools)
-		- [编码/解码 Encode/Decode](#编码解码-encodedecode)
-		- [正则表达式 Regular Expressions](#正则表达式-regular-expressions)
-		- [哈希算法 Hash Crack](#哈希算法-hash-crack)
-		- [公钥密码算法 RSA](#公钥密码算法-rsa)
-		- [国密算法 SM](#国密算法-sm)
-	- [网络空间测绘 Cyberspace Search Engine](#网络空间测绘-cyberspace-search-engine)
-		- [综合工具 Nice Tools](#综合工具-nice-tools)
-		- [网页/端口 Web/Ports](#网页端口-webports)
-		- [谷歌搜索 Google Hacking](#谷歌搜索-google-hacking)
-		- [Github 搜索 Github Dork](#github-搜索-github-dork)
-	- [开源情报 Open-Source Intelligence](#开源情报-open-source-intelligence)
-		- [综合工具 Nice Tools](#综合工具-nice-tools)
-		- [威胁情报 Threat Intelligence](#威胁情报-threat-intelligence)
-		- [漏洞披露 Disclosed Vulnerabilities](#漏洞披露-disclosed%20vulnerabilities)
-		- [接口检索 API Search](#接口检索-api-search)
-		- [源代码检索 Source Code Search](#源代码检索-source-code-search)
-	- [开源资源 Open-Source Resources](#开源资源-open-source-resources)
-		- [社区/知识库 Communities/Knowledge Base](#社区知识库-communitiesknowledge-base)
-		- [思维导图/备忘录 Mindmap/Cheat Sheets](#思维导图备忘录-mindmapcheat-sheets)
-		- [进攻性安全 Red Teaming and Offensive Security](#进攻性安全-red-teaming-and-offensive-security)
-		- [防御性安全 Blue Teaming and Defensive Security](#防御性安全-blue-teaming-and-defensive-security)
-		- [操作安全 Operation Security](#操作安全-operation-security)
-- [信息收集 Reconnaissance](#信息收集-reconnaissance)
-	- [综合工具 Nice Tools](#综合工具-nice-tools)
-	- [IP/域名/子域名 IP/Domain/Subdomain](#ip域名子域名-ipdomainsubdomain)
-	- [指纹 Fingerprint](#指纹-fingerprint)
-		- [指纹库 Fingerprint Collection](#指纹库-fingerprint-collection)
-		- [指纹识别 Fingerprint Reconnaissance](#指纹识别-fingerprint-reconnaissance)
-		- [WAF 识别 Waf Checks](#waf-识别-waf-checks)
-	- [扫描/爆破 Brute Force](#扫描爆破-brute-force)
-		- [扫描/爆破工具 Brute Force Tools](#扫描爆破工具-brute-force-tools)
-		- [扫描/爆破字典 Brute Force Dictionaries](#扫描爆破字典-brute-force-dictionaries)
-		- [字典生成 Generate a Custom Dictionary](#字典生成-generate-a-custom-dictionary)
-		- [默认口令查询 Default Credentials](#默认口令查询-default-credentials)
-	- [社会工程学 Social Engineering](#社会工程学-social%20engineering)
-		- [凭据泄露 Leaked Credentials](#凭据泄露-leaked-credentials)
-		- [邮箱 Email](#邮箱-email)
-		- [短信 SMS Online](#短信-sms-online)
-		- [钓鱼 Phishing](#钓鱼-phishing)
-	- [移动端 Mobile](#移动端-mobile)
-- [漏洞研究 Vulnerability Research](#漏洞研究-vulnerability-research)
-	- [漏洞环境 Vulnerable Environments](#漏洞环境-vulnerable-environments)
-		- [基础漏洞 Basic Vulnerabilities](#基础漏洞-basic-vulnerabilities)
-		- [综合漏洞 Comprehensive Vulnerabilities](#综合漏洞-comprehensive-vulnerabilities)
-		- [工控环境 Vulnerable IoT Environment](#工控环境-vulnerable-iot-environment)
-		- [域环境 Vulnerable Active Directory Environment](#域环境-vulnerable-active-directory-environment)
-	- [PoC Proof of Concept](#poc-proof-of-concept)
+- [_Roadmap_](#roadmap)
+- [目录 _Contents_](#%E7%9B%AE%E5%BD%95-contents)
+- [项目导航 _Project Navigation_](#%E9%A1%B9%E7%9B%AE%E5%AF%BC%E8%88%AA-project-navigation)
+	- [速查文档 _CheatSheets_](#%E9%80%9F%E6%9F%A5%E6%96%87%E6%A1%A3-cheatsheets)
+	- [一些代码 _Scripts_](#%E4%B8%80%E4%BA%9B%E4%BB%A3%E7%A0%81-scripts)
+	- [攻防知识 _Tips_](#%E6%94%BB%E9%98%B2%E7%9F%A5%E8%AF%86-tips)
+- [开源导航 _Open-Source Navigation_](#%E5%BC%80%E6%BA%90%E5%AF%BC%E8%88%AA-open-source-navigation)
+	- [编解码/加解密 _Cryptography_](#%E7%BC%96%E8%A7%A3%E7%A0%81%E5%8A%A0%E8%A7%A3%E5%AF%86-cryptography)
+		- [在线工具 _Online Tools_](#%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7-online-tools)
+		- [离线工具 _Offline Tools_](#%E7%A6%BB%E7%BA%BF%E5%B7%A5%E5%85%B7-offline-tools)
+		- [编码/解码 _Encode/Decode_](#%E7%BC%96%E7%A0%81%E8%A7%A3%E7%A0%81-encodedecode)
+		- [正则表达式 _Regular Expressions_](#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-regular-expressions)
+		- [哈希算法 _Hash Crack_](#%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95-hash-crack)
+		- [公钥密码算法 _RSA_](#%E5%85%AC%E9%92%A5%E5%AF%86%E7%A0%81%E7%AE%97%E6%B3%95-rsa)
+		- [国密算法 _SM_](#%E5%9B%BD%E5%AF%86%E7%AE%97%E6%B3%95-sm)
+	- [网络空间测绘 _Cyberspace Search Engine_](#%E7%BD%91%E7%BB%9C%E7%A9%BA%E9%97%B4%E6%B5%8B%E7%BB%98-cyberspace-search-engine)
+		- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
+		- [网页/端口 _Web/Ports_](#%E7%BD%91%E9%A1%B5%E7%AB%AF%E5%8F%A3-webports)
+		- [谷歌搜索 _Google Hacking_](#%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2-google-hacking)
+		- [Github 搜索 _Github Dork_](#github-%E6%90%9C%E7%B4%A2-github-dork)
+	- [开源情报 _Open-Source Intelligence_](#%E5%BC%80%E6%BA%90%E6%83%85%E6%8A%A5-open-source-intelligence)
+		- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
+		- [威胁情报 _Threat Intelligence_](#%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5-threat-intelligence)
+		- [漏洞披露 _Disclosed Vulnerabilities_](#%E6%BC%8F%E6%B4%9E%E6%8A%AB%E9%9C%B2-disclosed%C2%A0vulnerabilities)
+		- [接口检索 _API Search_](#%E6%8E%A5%E5%8F%A3%E6%A3%80%E7%B4%A2-api-search)
+		- [源代码检索 _Source Code Search_](#%E6%BA%90%E4%BB%A3%E7%A0%81%E6%A3%80%E7%B4%A2-source-code-search)
+	- [开源资源 _Open-Source Resources_](#%E5%BC%80%E6%BA%90%E8%B5%84%E6%BA%90-open-source-resources)
+		- [社区/知识库 _Communities/Knowledge Base_](#%E7%A4%BE%E5%8C%BA%E7%9F%A5%E8%AF%86%E5%BA%93-communitiesknowledge-base)
+		- [思维导图/备忘录 Mindmap/Cheat Sheets](#%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E5%A4%87%E5%BF%98%E5%BD%95-mindmapcheat-sheets)
+		- [进攻性安全 _Red Teaming and Offensive Security_](#%E8%BF%9B%E6%94%BB%E6%80%A7%E5%AE%89%E5%85%A8-red-teaming-and-offensive-security)
+		- [防御性安全 _Blue Teaming and Defensive Security_](#%E9%98%B2%E5%BE%A1%E6%80%A7%E5%AE%89%E5%85%A8-blue-teaming-and-defensive-security)
+		- [操作安全 _Operation Security_](#%E6%93%8D%E4%BD%9C%E5%AE%89%E5%85%A8-operation-security)
+		- [实战平台 _Learning and Practice Platforms_](#%E5%AE%9E%E6%88%98%E5%B9%B3%E5%8F%B0-learning-and-practice-platforms)
+- [信息收集 _Reconnaissance_](#%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86-reconnaissance)
+	- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
+	- [IP/域名/子域名 _IP/Domain/Subdomain_](#ip%E5%9F%9F%E5%90%8D%E5%AD%90%E5%9F%9F%E5%90%8D-ipdomainsubdomain)
+	- [指纹 _Fingerprint_](#%E6%8C%87%E7%BA%B9-fingerprint)
+		- [指纹库 _Fingerprint Collection_](#%E6%8C%87%E7%BA%B9%E5%BA%93-fingerprint-collection)
+		- [指纹识别 _Fingerprint Reconnaissance_](#%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB-fingerprint-reconnaissance)
+		- [WAF 识别 _Waf Checks_](#waf-%E8%AF%86%E5%88%AB-waf-checks)
+	- [扫描/爆破 _Brute Force_](#%E6%89%AB%E6%8F%8F%E7%88%86%E7%A0%B4-brute-force)
+		- [扫描/爆破工具 _Brute Force Tools_](#%E6%89%AB%E6%8F%8F%E7%88%86%E7%A0%B4%E5%B7%A5%E5%85%B7-brute-force-tools)
+		- [扫描/爆破字典 _Brute Force Dictionaries_](#%E6%89%AB%E6%8F%8F%E7%88%86%E7%A0%B4%E5%AD%97%E5%85%B8-brute-force-dictionaries)
+		- [字典生成 _Generate a Custom Dictionary_](#%E5%AD%97%E5%85%B8%E7%94%9F%E6%88%90-generate-a-custom-dictionary)
+		- [默认口令查询 _Default Credentials_](#%E9%BB%98%E8%AE%A4%E5%8F%A3%E4%BB%A4%E6%9F%A5%E8%AF%A2-default-credentials)
+	- [社会工程学 _Social Engineering_](#%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6-social%C2%A0engineering)
+		- [凭据泄露 _Leaked Credentials_](#%E5%87%AD%E6%8D%AE%E6%B3%84%E9%9C%B2-leaked-credentials)
+		- [邮箱 _Email_](#%E9%82%AE%E7%AE%B1-email)
+		- [短信 _SMS Online_](#%E7%9F%AD%E4%BF%A1-sms-online)
+		- [钓鱼 _Phishing_](#%E9%92%93%E9%B1%BC-phishing)
+	- [移动端 _Mobile_](#%E7%A7%BB%E5%8A%A8%E7%AB%AF-mobile)
+- [漏洞研究 _Vulnerability Research_](#%E6%BC%8F%E6%B4%9E%E7%A0%94%E7%A9%B6-vulnerability-research)
+	- [漏洞环境 _Vulnerable Environments_](#%E6%BC%8F%E6%B4%9E%E7%8E%AF%E5%A2%83-vulnerable-environments)
+		- [基础漏洞 _Basic Vulnerabilities_](#%E5%9F%BA%E7%A1%80%E6%BC%8F%E6%B4%9E-basic-vulnerabilities)
+		- [综合漏洞 _Comprehensive Vulnerabilities_](#%E7%BB%BC%E5%90%88%E6%BC%8F%E6%B4%9E-comprehensive-vulnerabilities)
+		- [工控环境 _Vulnerable IoT Environment_](#%E5%B7%A5%E6%8E%A7%E7%8E%AF%E5%A2%83-vulnerable-iot-environment)
+		- [域环境 _Vulnerable Active Directory Environment_](#%E5%9F%9F%E7%8E%AF%E5%A2%83-vulnerable-active-directory-environment)
+	- [PoC _Proof of Concept_](#poc-proof-of-concept)
 		- [PoC/ExP](#pocexp)
 		- [PoC Templates](#poc-templates)
-- [漏洞利用 Vulnerability Exploits](#漏洞利用-vulnerability-exploits)
-	- [综合工具 Nice Tools](#综合工具-nice-tools)
-	- [代码审计 Code Audit](#代码审计-code-audit)
-	- [反序列化 Deserialization](#反序列化-deserialization)
+- [漏洞利用 _Vulnerability Exploits_](#%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8-vulnerability-exploits)
+	- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
+	- [代码审计 _Code Audit_](#%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1-code-audit)
+	- [反序列化 _Deserialization_](#%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96-deserialization)
 		- [Java](#java)
 		- [PHP](#php)
-	- [数据库 Database](#数据库-database)
+	- [数据库 _Database_](#%E6%95%B0%E6%8D%AE%E5%BA%93-database)
 		- [Redis](#redis)
 		- [MySQL](#mysql)
 		- [Oracle](#oracle)
 		- [MSSQL](#mssql)
-	- [信息泄露 Information Disclosure](#信息泄露-information-disclosure)
-	- [CMS/OA](#cmsoa)
-	- [中间件/应用层 Middleware/Application](#中间件应用层-middlewareapplication)
-- [渗透测试 Penetration Testing](#渗透测试-penetration-testing)
-	- [综合工具 Nice Tools](#综合工具-nice-tools)
-	- [渗透插件 Extensions](#渗透插件-extensions)
+	- [信息泄露 _Information Disclosure_](#%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2-information-disclosure)
+	- [_CMS/OA_](#cmsoa)
+	- [中间件/应用层 _Middleware/Application_](#%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%BA%94%E7%94%A8%E5%B1%82-middlewareapplication)
+- [渗透测试 _Penetration Testing_](#%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95-penetration-testing)
+	- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
+	- [渗透插件 _Extensions_](#%E6%B8%97%E9%80%8F%E6%8F%92%E4%BB%B6-extensions)
 		- [Chrome](#chrome)
 		- [Burpsuite](#burpsuite)
-	- [辅助工具 Auxiliary Tools](#辅助工具-auxiliary-tools)
-		- [工具集 Open-Source Toolkit](#工具集-open-source-toolkit)
-		- [带外通道 DNSLog](#带外通道-dnslog)
-		- [终端优化 Command Line](#终端优化-command-line)
-		- [代码美化 Beautifier](#代码美化-beautifier)
-		- [生成器 Generator](#生成器-generator)
-	- [SQL 注入 SQL Injection](#sql-注入-sql-injection)
-	- [访问控制 Access Control](#访问控制-access-control)
-		- [403 绕过 Bypass 40X errors](#403-绕过-bypass-40x-errors)
-	- [跨站脚本 XSS](#跨站脚本-xss)
-	- [文件包含 File Inclusion](#文件包含-file-inclusion)
-	- [服务端请求伪造 SSRF](#服务端请求伪造-ssrf)
-	- [移动端安全 Mobile Security](#移动端安全-mobile-security)
-		- [小程序 Mini Program](#小程序-mini-program)
-		- [应用程序 APK](#应用程序-apk)
-		- [SessionKey](#sessionkey)
-	- [Payload and Bypass](#payload-and-bypass)
-- [内网渗透 Red Teaming and Offensive Security](#内网渗透-red-teaming-and-offensive-security)
-	- [基础设施 Infrastructure](#基础设施-infrastructure)
-	- [信息收集 Reconnaissance](#信息收集-reconnaissance)
-	- [凭证获取 Credential Access](#凭证获取-credential-access)
-		- [凭证转储 Credential Dumping](#凭证转储-credential-dumping)
-		- [本地枚举 Local Enumeration](#本地枚举-local-enumeration)
-		- [哈希破解 NTLM Cracking](#哈希破解-ntlm-cracking)
-	- [后渗透 Post Exploitation](#后渗透-post-exploitation)
-		- [综合工具 Nice Tools](#综合工具-nice-tools)
-		- [二进制库 Binaries and Libraries](#二进制库-binaries-and-libraries)
-	- [权限维持 Persistence](#权限维持-persistence)
-		- [内存马 Webshell Collection](#内存马-webshell-collection)
-		- [Webshell 管理 Webshell Management](#webshell-管理-webshell-management)
-		- [Webshell 免杀 Webshell Bypass](#webshell-免杀-webshell-bypass)
-		- [反弹 Shell 管理 Reverse Shell Management](#反弹-shell-管理-reverse-shell-management)
-	- [权限提升 Privilege Escalation](#权限提升-privilege-escalation)
-		- [Linux 本地枚举 Linux Local Enumeration](#linux-本地枚举-linux-local-enumeration)
-		- [Windows 本地枚举 Windows Local Enumeration](#windows-本地枚举-windows-local-enumeration)
-		- [Windows 提权 Windows Exploits](#windows-提权-windows-exploits)
-		- [Linux 提权 Linux Exploits](#linux-提权-linux-exploits)
-		- [数据库提权 Database Exploits](#数据库提权-database-exploits)
-	- [防御规避 Defense Evasion](#防御规避-defense-evasion)
-		- [Linux 防御规避 Linux Defense Evasion](#linux-防御规避-linux-defense-evasion)
-		- [Windows 防御规避 Windows Defense Evasion](#windows-防御规避-windows-defense-evasion)
-	- [内网穿透 Proxy](#内网穿透-proxy)
-		- [代理客户端 Proxy Client](#代理客户端-proxy-client)
-		- [反向代理 Reverse Proxy](#反向代理-reverse-proxy)
-		- [DNS 隧道 DNS Tunnel](#dns-隧道-dns-tunnel)
-		- [ICMP 隧道 ICMP Tunnel](#icmp-隧道-icmp-tunnel)
-		- [端口转发 Port Forwarding](#端口转发-port-forwarding)
-	- [操作安全 Operation Security](#操作安全-operation-security)
-- [域渗透 Active Directory Penetration](#域渗透-active-directory-penetration)
-	- [域内信息收集 Collection and Discovery](#域内信息收集-collection-and-discovery)
-	- [域内漏洞利用 Known Exploited Vulnerabilities](#域内漏洞利用-known-exploited-vulnerabilities)
+		- [Yakit](#yakit)
+	- [辅助工具 _Auxiliary Tools_](#%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7-auxiliary-tools)
+		- [工具集 _Open-Source Toolkit_](#%E5%B7%A5%E5%85%B7%E9%9B%86-open-source-toolkit)
+		- [带外通道 _DNSLog_](#%E5%B8%A6%E5%A4%96%E9%80%9A%E9%81%93-dnslog)
+		- [终端优化 _Command Line_](#%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96-command-line)
+		- [代码美化 _Beautifier_](#%E4%BB%A3%E7%A0%81%E7%BE%8E%E5%8C%96-beautifier)
+		- [生成器 _Generator_](#%E7%94%9F%E6%88%90%E5%99%A8-generator)
+	- [SQL 注入 _SQL Injection_](#sql-%E6%B3%A8%E5%85%A5-sql-injection)
+	- [访问控制 _Access Control_](#%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6-access-control)
+		- [403 绕过 _Bypass 40X errors_](#403-%E7%BB%95%E8%BF%87-bypass-40x-errors)
+	- [跨站脚本 _XSS_](#%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC-xss)
+	- [文件包含 _File Inclusion_](#%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB-file-inclusion)
+	- [服务端请求伪造 _SSRF_](#%E6%9C%8D%E5%8A%A1%E7%AB%AF%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0-ssrf)
+	- [移动端安全 _Mobile Security_](#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%AE%89%E5%85%A8-mobile-security)
+		- [小程序 _Mini Program_](#%E5%B0%8F%E7%A8%8B%E5%BA%8F-mini-program)
+		- [应用程序 _APK_](#%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F-apk)
+		- [_SessionKey_](#sessionkey)
+	- [_Payload and Bypass_](#payload-and-bypass)
+- [内网渗透 _Red Teaming and Offensive Security_](#%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-red-teaming-and-offensive-security)
+	- [基础设施 _Infrastructure_](#%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD-infrastructure)
+	- [信息收集 _Reconnaissance_](#%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86-reconnaissance)
+	- [凭证获取 _Credential Access_](#%E5%87%AD%E8%AF%81%E8%8E%B7%E5%8F%96-credential-access)
+		- [凭证转储 _Credential Dumping_](#%E5%87%AD%E8%AF%81%E8%BD%AC%E5%82%A8-credential-dumping)
+		- [本地枚举 _Local Enumeration_](#%E6%9C%AC%E5%9C%B0%E6%9E%9A%E4%B8%BE-local-enumeration)
+		- [哈希破解 _NTLM Cracking_](#%E5%93%88%E5%B8%8C%E7%A0%B4%E8%A7%A3-ntlm-cracking)
+	- [后渗透 _Post Exploitation_](#%E5%90%8E%E6%B8%97%E9%80%8F-post-exploitation)
+		- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
+		- [二进制库 _Binaries and Libraries_](#%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%BA%93-binaries-and-libraries)
+	- [权限维持 _Persistence_](#%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81-persistence)
+		- [内存马 _Webshell Collection_](#%E5%86%85%E5%AD%98%E9%A9%AC-webshell-collection)
+		- [Webshell 管理 _Webshell Management_](#webshell-%E7%AE%A1%E7%90%86-webshell-management)
+		- [Webshell 免杀 _Webshell Bypass_](#webshell-%E5%85%8D%E6%9D%80-webshell-bypass)
+		- [反弹 Shell 管理 _Reverse Shell Management_](#%E5%8F%8D%E5%BC%B9-shell-%E7%AE%A1%E7%90%86-reverse-shell-management)
+	- [权限提升 _Privilege Escalation_](#%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87-privilege-escalation)
+		- [Linux 本地枚举 _Linux Local Enumeration_](#linux-%E6%9C%AC%E5%9C%B0%E6%9E%9A%E4%B8%BE-linux-local-enumeration)
+		- [Windows 本地枚举 _Windows Local Enumeration_](#windows-%E6%9C%AC%E5%9C%B0%E6%9E%9A%E4%B8%BE-windows-local-enumeration)
+		- [Windows 提权 _Windows Exploits_](#windows-%E6%8F%90%E6%9D%83-windows-exploits)
+		- [Linux 提权 _Linux Exploits_](#linux-%E6%8F%90%E6%9D%83-linux-exploits)
+		- [数据库提权 _Database Exploits_](#%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8F%90%E6%9D%83-database-exploits)
+	- [防御规避 _Defense Evasion_](#%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF-defense-evasion)
+		- [Linux 防御规避 _Linux Defense Evasion_](#linux-%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF-linux-defense-evasion)
+		- [Windows 防御规避 _Windows Defense Evasion_](#windows-%E9%98%B2%E5%BE%A1%E8%A7%84%E9%81%BF-windows-defense-evasion)
+	- [内网穿透 _Proxy_](#%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F-proxy)
+		- [代理客户端 _Proxy Client_](#%E4%BB%A3%E7%90%86%E5%AE%A2%E6%88%B7%E7%AB%AF-proxy-client)
+		- [反向代理 _Reverse Proxy_](#%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86-reverse-proxy)
+		- [DNS 隧道 _DNS Tunnel_](#dns-%E9%9A%A7%E9%81%93-dns-tunnel)
+		- [ICMP 隧道 _ICMP Tunnel_](#icmp-%E9%9A%A7%E9%81%93-icmp-tunnel)
+		- [端口转发 _Port Forwarding_](#%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91-port-forwarding)
+	- [操作安全 _Operation Security_](#%E6%93%8D%E4%BD%9C%E5%AE%89%E5%85%A8-operation-security)
+- [域渗透 _Active Directory Penetration_](#%E5%9F%9F%E6%B8%97%E9%80%8F-active-directory-penetration)
+	- [域内信息收集 _Collection and Discovery_](#%E5%9F%9F%E5%86%85%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86-collection-and-discovery)
+	- [域内权限提升 _Privilege Escalation_](#%E5%9F%9F%E5%86%85%E6%9D%83%E9%99%90%E6%8F%90%E5%8D%87-privilege-escalation)
+	- [域内漏洞利用 _Known Exploited Vulnerabilities_](#%E5%9F%9F%E5%86%85%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8-known-exploited-vulnerabilities)
 		- [noPac](#nopac)
 		- [Zerologon](#zerologon)
 		- [ProxyLogon/ProxyShell](#proxylogonproxyshell)
 		- [Printnightmare](#printnightmare)
-	- [域内渗透方式 Methodology](#域内渗透方式-methodology)
+	- [域内渗透方式 _Methodology_](#%E5%9F%9F%E5%86%85%E6%B8%97%E9%80%8F%E6%96%B9%E5%BC%8F-methodology)
 		- [Kerbrute](#kerbrute)
 		- [DCSync](#dcsync)
 		- [NTLM Relay](#ntlm-relay)
 		- [ADCS](#adcs)
-- [防御性安全 Blue Teaming and Defensive Security](#防御性安全-blue-teaming-and-defensive-security)
-	- [内存马查杀 Memshell Detection](#内存马查杀-memshell-detection)
-	- [Webshell 查杀 Webshell Detection](#webshell-查杀-webshell-detection)
-	- [攻击研判 Blue Teaming](#攻击研判-blue-teaming)
-	- [基线加固 Enforcement](#基线加固-enforcement)
-	- [勒索病毒 Ransomware](#勒索病毒-ransomware)
-		- [搜索引擎 Search Engine](#搜索引擎-search-engine)
-		- [解密工具 Decryption Tools](#解密工具-decryption-tools)
-	- [开源蜜罐 Open-Source Honeypot](#开源蜜罐-open-source-honeypot)
-	- [逆向工程 Reverse Engineering](#逆向工程-reverse-engineering)
-		- [综合工具 Nice Tools](#综合工具-nice-tools)
+- [防御性安全 _Blue Teaming and Defensive Security_](#%E9%98%B2%E5%BE%A1%E6%80%A7%E5%AE%89%E5%85%A8-blue-teaming-and-defensive-security)
+	- [内存马查杀 _Memshell Detection_](#%E5%86%85%E5%AD%98%E9%A9%AC%E6%9F%A5%E6%9D%80-memshell-detection)
+	- [Webshell 查杀 _Webshell Detection_](#webshell-%E6%9F%A5%E6%9D%80-webshell-detection)
+	- [攻击研判 _Blue Teaming_](#%E6%94%BB%E5%87%BB%E7%A0%94%E5%88%A4-blue-teaming)
+	- [基线加固 _Enforcement_](#%E5%9F%BA%E7%BA%BF%E5%8A%A0%E5%9B%BA-enforcement)
+	- [勒索病毒 _Ransomware_](#%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92-ransomware)
+		- [搜索引擎 _Search Engine_](#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E-search-engine)
+		- [解密工具 _Decryption Tools_](#%E8%A7%A3%E5%AF%86%E5%B7%A5%E5%85%B7-decryption-tools)
+	- [开源蜜罐 _Open-Source Honeypot_](#%E5%BC%80%E6%BA%90%E8%9C%9C%E7%BD%90-open-source-honeypot)
+	- [逆向工程 _Reverse Engineering_](#%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B-reverse-engineering)
+		- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
 		- [ELF/EXE](#elfexe)
 		- [Java](#java)
 		- [Python](#python)
 		- [Rust/Go/.NET](#rustgonet)
-- [云安全 Cloud Security](#云安全-cloud-security)
-	- [开源资源 Resources](#开源资源-resources)
-	- [云安全矩阵 Cloud Threat Matrix](#云安全矩阵-cloud-threat-matrix)
-	- [云漏洞环境 Vulnerable Cloud Environments](#云漏洞环境-vulnerable-cloud-environments)
-	- [云服务 Cloud Services](#云服务-cloud-services)
-		- [云管平台 Management Tools](#云管平台-management-tools)
-		- [AK/SK 利用 AK/SK Exploit](#aksk-利用-aksk-exploit)
-	- [云原生 Cloud Native](#云原生-cloud-native)
-		- [综合工具 Nice Tools](#综合工具-nice-tools)
-		- [容器 Docker](#容器-docker)
-		- [集群 Kubernetes](#集群-kubernetes)
-- [AI 安全 AI Security](#ai-安全-ai-security)
-	- [AI 安全矩阵 AI Threat Matrix](#ai-安全矩阵-ai-threat-matrix)
-- [提高生产力的辅助工具](#提高生产力的辅助工具)
-	- [LLM](#llm)
-		- [开源资源 Open-Source Resources](#开源资源-open-source-resources)
-		- [提示词 Prompts](#提示词-prompts)
-		- [部署 Deployment](#部署-deployment)
-- [提高生产力的使用姿势](#提高生产力的使用姿势)
-	- [如何快速使用 alias](#如何快速使用-alias)
-	- [如何优化原生终端](#如何优化原生终端)
-	- [如何解决终端中文乱码](#如何解决终端中文乱码)
+- [云安全 _Cloud Security_](#%E4%BA%91%E5%AE%89%E5%85%A8-cloud-security)
+	- [开源资源 _Resources_](#%E5%BC%80%E6%BA%90%E8%B5%84%E6%BA%90-resources)
+	- [云安全矩阵 _Cloud Threat Matrix_](#%E4%BA%91%E5%AE%89%E5%85%A8%E7%9F%A9%E9%98%B5-cloud-threat-matrix)
+	- [云漏洞环境 _Vulnerable Cloud Environments_](#%E4%BA%91%E6%BC%8F%E6%B4%9E%E7%8E%AF%E5%A2%83-vulnerable-cloud-environments)
+	- [云服务 _Cloud Services_](#%E4%BA%91%E6%9C%8D%E5%8A%A1-cloud-services)
+		- [云管平台 _Management Tools_](#%E4%BA%91%E7%AE%A1%E5%B9%B3%E5%8F%B0-management-tools)
+		- [AK/SK 利用 _AK/SK Exploit_](#aksk-%E5%88%A9%E7%94%A8-aksk-exploit)
+	- [云原生 _Cloud Native_](#%E4%BA%91%E5%8E%9F%E7%94%9F-cloud-native)
+		- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
+		- [容器 _Docker_](#%E5%AE%B9%E5%99%A8-docker)
+		- [集群 _Kubernetes_](#%E9%9B%86%E7%BE%A4-kubernetes)
+- [AI 安全 _AI Security_](#ai-%E5%AE%89%E5%85%A8-ai-security)
+	- [AI 安全矩阵 _AI Threat Matrix_](#ai-%E5%AE%89%E5%85%A8%E7%9F%A9%E9%98%B5-ai-threat-matrix)
+- [提高生产力的辅助工具](#%E6%8F%90%E9%AB%98%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%9A%84%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7)
+	- [_LLM_](#llm)
+		- [开源资源 _Open-Source Resources_](#%E5%BC%80%E6%BA%90%E8%B5%84%E6%BA%90-open-source-resources)
+		- [编排框架 _orchestration framework_](#%E7%BC%96%E6%8E%92%E6%A1%86%E6%9E%B6-orchestration%C2%A0framework)
+		- [提示词 _Prompts_](#%E6%8F%90%E7%A4%BA%E8%AF%8D-prompts)
+		- [部署 _Deployment_](#%E9%83%A8%E7%BD%B2-deployment)
+- [提高生产力的使用姿势](#%E6%8F%90%E9%AB%98%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%9A%84%E4%BD%BF%E7%94%A8%E5%A7%BF%E5%8A%BF)
+	- [如何快速使用 alias](#%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8-alias)
+	- [如何优化原生终端](#%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E5%8E%9F%E7%94%9F%E7%BB%88%E7%AB%AF)
+	- [如何解决终端中文乱码](#%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%BB%88%E7%AB%AF%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81)
 
 ## 项目导航 _Project Navigation_
 
@@ -402,7 +406,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - https://github.com/Ignitetechnologies/Mindmap/ Cyber Security Mindmap
 - https://html5sec.org/ HTML5 Security Cheatsheet
 - https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2023_02.svg AD attack&defense mindmaps
-- https://wadcoms.github.io/ Windows/AD cheat sheet
+- https://github.com/WADComs/WADComs.github.io Windows/AD cheat sheet 👍
 
 #### 进攻性安全 _Red Teaming and Offensive Security_
 
@@ -437,6 +441,12 @@ Flask_Session_Decryptor: Flask session注入解密
 - Root Me: https://www.root-me.org/
 - ichunqiu: https://yunjing.ichunqiu.com/
 - echoCTF: https://github.com/echoCTF/echoCTF.RED for CTF
+- Vulnhub: https://www.vulnhub.com/
+
+Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，再通过 UTM 运行：
+
+- https://github.com/qemu/qemu
+- https://github.com/utmapp/UTM
 
 ## 信息收集 _Reconnaissance_
 
@@ -676,6 +686,7 @@ Flask_Session_Decryptor: Flask session注入解密
 #### 域环境 _Vulnerable Active Directory Environment_
 
 - Game of active directory: https://github.com/Orange-Cyberdefense/GOAD
+- BadBlood: https://github.com/davidprowe/BadBlood create your own example Active Directory environment
 
 ### PoC _Proof of Concept_
 
@@ -937,6 +948,7 @@ Spring **Boot**
 
 - https://github.com/ohmyzsh/ohmyzsh command line enhancement for zsh
 - https://github.com/chrisant996/clink command line enhancement for cmd.exe
+- https://github.com/hanslub42/rlwrap a readline wrapper
 - https://github.com/Eugeny/tabby for Windows
 - https://github.com/warpdotdev/Warp for Mac
 - https://github.com/tomnomnom/anew tool for adding new lines to files, skipping duplicates
@@ -1103,8 +1115,8 @@ Spring **Boot**
 
 #### 二进制库 _Binaries and Libraries_
 
-- LOLBAS: https://github.com/LOLBAS-Project/LOLBAS binaries and scripts for Windows
-- GTFOBins: https://gtfobins.github.io/  binaries for Unix
+- LOLBAS: https://github.com/LOLBAS-Project/LOLBAS-Project.github.io binaries and scripts for Windows
+- GTFOBins: https://github.com/GTFOBins/GTFOBins.github.io binaries for Unix
 
 ### 权限维持 _Persistence_
 
@@ -1207,6 +1219,7 @@ Spring **Boot**
 - reGeorg: https://github.com/sensepost/reGeorg
 - rakshasa: https://github.com/Mob2003/rakshasa
 - Viper: https://github.com/FunnyWolf/Viper
+- ligolo-ng: https://github.com/nicocha30/ligolo-ng TUN interface
 
 #### DNS 隧道 _DNS Tunnel_
 
@@ -1240,6 +1253,10 @@ Spring **Boot**
 - https://github.com/lzzbb/Adinfo
 - https://github.com/wh0amitz/SharpADWS via Active Directory Web Services (ADWS) protocol
 - https://github.com/FalconForceTeam/SOAPHound via Active Directory Web Services (ADWS) protocol
+
+### 域内权限提升 _Privilege Escalation_
+
+- https://github.com/CravateRouge/bloodyAD
 
 ### 域内漏洞利用 _Known Exploited Vulnerabilities_
 
@@ -1520,6 +1537,11 @@ Spring **Boot**
 
 - https://github.com/Hannibal046/Awesome-LLM
 - https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
+- https://github.com/deepseek-ai/awesome-deepseek-integration DeepSeek 实用集成
+
+#### 编排框架 _orchestration framework_
+
+- https://github.com/langchain-ai/langchain
 
 #### 提示词 _Prompts_
 
@@ -1534,6 +1556,9 @@ Spring **Boot**
 - chatbox: https://github.com/Bin-Huang/chatbox User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...) 本地客户端 for MacOS/Windows/Linux
 - anythingllm: https://anythingllm.com/ Run local LLMs fast with powerful built-in tools and features. 本地客户端 for MacOS/Windows/Linux
 - enchanted: https://github.com/AugustDev/enchanted Enchanted is used for chatting with private self hosted language models. 本地客户端 for iOS/MacOS
+- chatbox: https://github.com/Bin-Huang/chatbox 本地客户端 for Windows/MacOS/Linux
+- obsidian-copilot: https://github.com/logancyang/obsidian-copilot
+- continue: https://github.com/continuedev/continue
 
 如果你想通过 ollama 在**本地**快速部署 LLM，可以参考这套技术栈：
 
@@ -1542,6 +1567,7 @@ Spring **Boot**
 - 运行大型语言模型并部署应用程序：ollama + enchanted
 - 运行大型语言模型并与本地编辑器集成（例如 Obsidian）：ollama + copilot（Obsidian 插件）
 - 运行大型语言模型并与本地代码编辑器集成（例如 Vscode）： ollama + continue（Vscode 插件）
+- 运行大型语言模型并构建本地 RAG 应用：ollama + langchain
 - ...
 
 ## 提高生产力的使用姿势
@@ -1577,12 +1603,13 @@ alias godzilla="cd /Users/threekiii/HackTools/C2/Godzilla_v4.0.1/ && /Library/Ja
 
 Windows 通过 tabby + clink 优化原生终端，实现命令自动补全、vps ssh/ftp/sftp、输出日志记录等功能：
 
+- warp: https://github.com/warpdotdev/Warp 👍
 - tabby: https://github.com/Eugeny/tabby
 - clink: https://github.com/chrisant996/clink
 
 MacOS 通过 warp + ohmyzsh 优化原生终端，warp 自带命令自动补全，引入“块”概念，提供了更现代化的编程体验（Modern UX and Text Editing）：
 
-- warp: https://github.com/warpdotdev/Warp
+- warp: https://github.com/warpdotdev/Warp 👍
 - ohmyzsh: https://github.com/ohmyzsh/ohmyzsh
 
 ### 如何解决终端中文乱码
