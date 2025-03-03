@@ -1047,6 +1047,7 @@ Spring **Boot**
 
 ### 信息收集 _Reconnaissance_
 
+- SharpHunter: https://github.com/lintstar/SharpHunter Automated Hosting Information Hunting Tool
 - netspy: https://github.com/shmilylty/netspy intranet segment spy
 - SharpHostInfo: https://github.com/shmilylty/SharpHostInfo
 - SharpScan: https://github.com/INotGreen/SharpScan
@@ -1062,6 +1063,7 @@ Spring **Boot**
 - Pillager: https://github.com/qwqdanchun/Pillager/
 - searchall: https://github.com/Naturehi666/searchall
 - pypykatz: https://github.com/skelsec/pypykatz mimikatz implementation in pure python
+- regsecrets & dpapidump: https://github.com/fortra/impacket/pull/1898 tested on windows 11 and server 2022 without issue
 
 #### 本地枚举 _Local Enumeration_
 
