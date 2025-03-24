@@ -701,6 +701,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://github.com/luck-ying/Library-POC
 - https://github.com/Mr-xn/Penetration_Testing_POC
 - https://github.com/nomi-sec/PoC-in-GitHub
+- https://github.com/ycdxsb/PocOrExp_in_Github
 - https://github.com/helloexp/0day
 - https://github.com/trickest/cve
 - https://sploitus.com/ exploits of the week
@@ -1154,7 +1155,7 @@ Spring **Boot**
 - https://github.com/mostaphabahadou/postenum
 - https://github.com/rebootuser/LinEnum
 - https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
-- https://github.com/DominicBreuker/pspy
+- https://github.com/DominicBreuker/pspy Monitor linux processes without root permission
 
 #### Windows 本地枚举 _Windows Local Enumeration_
 
@@ -1316,6 +1317,11 @@ Spring **Boot**
 - Responder: https://github.com/lgandx/Responder
 - Responder-Windows: https://github.com/lgandx/Responder-Windows
 
+#### RBCD
+
+- Impacket rbcd.py: https://github.com/fortra/impacket/blob/master/examples/rbcd.py
+- SharpRBCD: https://github.com/Kryp7os/SharpRBCD
+- PowerView.: https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
 #### ADCS
 
 > Active Directory Certificate Services
@@ -1527,6 +1533,10 @@ Spring **Boot**
 
 ## AI 安全 _AI Security_
 
+### 开源资源 _Resources_
+
+- GPTSecurity: https://www.gptsecurity.info/
+
 ### AI 安全矩阵 _AI Threat Matrix_
 
 - Nsfocus: https://aiss.nsfocus.com/
@@ -1539,6 +1549,7 @@ Spring **Boot**
 
 - https://github.com/Hannibal046/Awesome-LLM
 - https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
+- https://github.com/open-compass/opencompass LLM 性能榜单
 - https://github.com/deepseek-ai/awesome-deepseek-integration DeepSeek 实用集成
 
 #### 编排框架 _orchestration framework_
@@ -1549,6 +1560,7 @@ Spring **Boot**
 
 - https://github.com/f/awesome-chatgpt-prompts
 - https://github.com/PlexPt/awesome-chatgpt-prompts-zh
+- https://github.com/langgptai/wonderful-prompts
 
 #### 部署 _Deployment_
 
