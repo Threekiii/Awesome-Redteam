@@ -405,7 +405,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - https://learnxinyminutes.com/ Programming/Toolkit/Command/OS/Shortcuts cheat sheet
 - https://github.com/Ignitetechnologies/Mindmap/ Cyber Security Mindmap
 - https://html5sec.org/ HTML5 Security Cheatsheet
-- https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2023_02.svg AD attack&defense mindmaps
+- https://orange-cyberdefense.github.io/ocd-mindmaps/img/mindmap_ad_dark_classic_2025.03.excalidraw.svg AD attack&defense mindmaps
 - https://github.com/WADComs/WADComs.github.io Windows/AD cheat sheet 👍
 
 #### 进攻性安全 _Red Teaming and Offensive Security_
@@ -1065,6 +1065,11 @@ Spring **Boot**
 - searchall: https://github.com/Naturehi666/searchall
 - pypykatz: https://github.com/skelsec/pypykatz mimikatz implementation in pure python
 - regsecrets & dpapidump: https://github.com/fortra/impacket/pull/1898 tested on windows 11 and server 2022 without issue
+- DonPAPI: https://github.com/login-securite/DonPAPI
+- SharpDPAPI: https://github.com/GhostPack/SharpDPAPI
+- dploot: https://github.com/zblurx/dploot DPAPI
+- PPLdump: https://github.com/itm4n/PPLdump LSASS as protected process
+- lsassy: https://github.com/login-securite/lsassy
 
 #### 本地枚举 _Local Enumeration_
 
@@ -1176,6 +1181,8 @@ Spring **Boot**
 - https://github.com/BeichenDream/BadPotato/
 - https://github.com/giuliano108/SeBackupPrivilege
 - https://github.com/gtworek/PSBits/blob/master/Misc/EnableSeBackupPrivilege.ps1
+- https://github.com/itm4n/PrivescCheck
+- https://github.com/peass-ng/PEASS-ng/blob/master/winPEAS/winPEASexe/README.md
 
 #### Linux 提权 _Linux Exploits_
 
@@ -1253,15 +1260,35 @@ Spring **Boot**
 	- https://github.com/dirkjanm/BloodHound.py
 	- https://github.com/BloodHoundAD/SharpHound
 	- https://github.com/CompassSecurity/BloodHoundQueries
+	- https://github.com/SpecterOps/BloodHound-Legacy/blob/master/Collectors/SharpHound.ps1
+	- https://github.com/AD-Security/AD_Miner
+	- https://github.com/NH-RED-TEAM/RustHound
+	- https://github.com/FalconForceTeam/SOAPHound
 - https://github.com/lzzbb/Adinfo
 - https://github.com/wh0amitz/SharpADWS via Active Directory Web Services (ADWS) protocol
-- https://github.com/FalconForceTeam/SOAPHound via Active Directory Web Services (ADWS) protocol
+- LDAP:
+	- https://github.com/franc-pentest/ldeep
+	- https://github.com/dirkjanm/ldapdomaindump
+	- https://github.com/yaap7/ldapsearch-ad
+- DNS:
+	- https://github.com/dirkjanm/adidnsdump
+- SCCM:
+	- https://github.com/garrettfoster13/sccmhunter
+	- https://github.com/Mayyhem/SharpSCCM
+- Brute force users:
+	- https://github.com/ropnop/kerbrute
 
 ### 域内权限提升 _Privilege Escalation_
 
 - https://github.com/CravateRouge/bloodyAD
 
 ### 域内漏洞利用 _Known Exploited Vulnerabilities_
+
+#### MS14-068
+
+- https://github.com/SpiderLabs/Responder/blob/master/tools/FindSMB2UPTime.py
+- https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS14-068/pykek/ms14-068.py
+- https://github.com/fortra/impacket/blob/master/examples/goldenPac.py
 
 #### noPac
 
@@ -1283,9 +1310,18 @@ Spring **Boot**
 
 #### ProxyLogon/ProxyShell
 
+> CVE-2021-34473
+
 - https://github.com/dirkjanm/privexchange/
 - https://github.com/Jumbo-WJB/PTH_Exchange
 - https://github.com/hausec/ProxyLogon
+- https://github.com/dmaasland/proxyshell-poc/blob/main/proxyshell_rce.py
+
+#### ProxyNotShell
+
+> CVE-2022-41040/CVE-2022-41082
+
+- https://github.com/testanull/ProxyNotShell-PoC
 
 #### Printnightmare
 
@@ -1297,15 +1333,7 @@ Spring **Boot**
 
 ### 域内渗透方式 _Methodology_
 
-#### Kerbrute
-
-- kerbrute: https://github.com/ropnop/kerbrute
-
-#### DCSync
-
-- DCSync: https://github.com/n00py/DCSync
-
-#### NTLM Relay
+#### Coerce and Relay
 
 - PetitPotam: https://github.com/topotam/PetitPotam
 - PrinterBug: https://github.com/leechristensen/SpoolSample
@@ -1316,12 +1344,17 @@ Spring **Boot**
 - cannon: https://github.com/Amulab/cannon
 - Responder: https://github.com/lgandx/Responder
 - Responder-Windows: https://github.com/lgandx/Responder-Windows
+- KrbRelayUp: https://github.com/Dec0ne/KrbRelayUp
+- ntlmrelayx: https://github.com/fortra/impacket/blob/master/examples/ntlmrelayx.py
+- kerbrelayx: https://github.com/dirkjanm/krbrelayx
 
-#### RBCD
+#### Delegation
 
+- findDelegation: https://github.com/fortra/impacket/blob/master/examples/findDelegation.py
 - Impacket rbcd.py: https://github.com/fortra/impacket/blob/master/examples/rbcd.py
 - SharpRBCD: https://github.com/Kryp7os/SharpRBCD
 - PowerView.: https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
+
 #### ADCS
 
 > Active Directory Certificate Services
@@ -1333,6 +1366,12 @@ Spring **Boot**
 	- PKINITtools: https://github.com/dirkjanm/PKINITtools
 	- ADCSPwn: https://github.com/bats3c/ADCSPwn
 - PassTheCert: https://github.com/AlmondOffSec/PassTheCert
+
+#### ACLs and ACEs
+
+- https://github.com/n00py/DCSync
+- https://github.com/ShutdownRepo/pywhisker
+- https://github.com/ShutdownRepo/targetedKerberoast
 
 ## 防御性安全 _Blue Teaming and Defensive Security_
 
