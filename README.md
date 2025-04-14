@@ -1,6 +1,10 @@
 # Awesome-Redteam
 
-**【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
+**❗【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。 使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
+
+_Disclaimer: The technologies, concepts, and tools provided in this Git repository are intended for educational and research purposes only. Any use for illegal activities, unauthorized penetration testing, or commercial purposes is strictly prohibited. Please read the [Awesome-Lows](https://github.com/Threekiii/Awesome-Laws) before using this repository._
+
+📖 一个攻防知识库。_A knowledge base for red teaming and offensive security._
 
 👍 means recommand 推荐使用
 
@@ -1128,8 +1132,11 @@ Spring **Boot**
 
 ### 权限维持 _Persistence_
 
-#### 内存马 _Webshell Collection_
+#### 内存马 _MemShell _
 
+- https://github.com/pen4uin/java-memshell-generator 👍
+- https://github.com/BeichenDream/GodzillaMemoryShellProject
+- https://github.com/1ucky7/jmg-for-Godzilla
 - https://github.com/tennc/webshell
 - https://github.com/novysodope/RMI_Inj_MemShell
 - https://github.com/ce-automne/TomcatMemShell
@@ -1219,10 +1226,11 @@ Spring **Boot**
 - Proxifier: https://www.proxifier.com/
 - Proxychains: https://github.com/haad/proxychains
 
-#### 反向代理 _Reverse Proxy_
+#### 代理工具 _Proxy Tools_
 
 - frp: https://github.com/fatedier/frp
 - frpModify: https://github.com/uknowsec/frpModify
+- suo5: https://github.com/zema1/suo5
 - Stowaway: https://github.com/ph4ntonn/Stowaway
 - Neo-reGeorg: https://github.com/L-codes/Neo-reGeorg
 - nps: https://github.com/ehang-io/nps
