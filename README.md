@@ -2,7 +2,7 @@
 
 **❗【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。 使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
 
-_Disclaimer: The technologies, concepts, and tools provided in this Git repository are intended for educational and research purposes only. Any use for illegal activities, unauthorized penetration testing, or commercial purposes is strictly prohibited. Please read the [Awesome-Lows](https://github.com/Threekiii/Awesome-Laws) before using this repository._
+_Disclaimer: The technologies, concepts, and tools provided in this Git repository are intended for educational and research purposes only. Any use for illegal activities, unauthorized penetration testing, or commercial purposes is strictly prohibited. Please read the [Awesome-Laws](https://github.com/Threekiii/Awesome-Laws) before using this repository._
 
 📖 一个攻防知识库。_A knowledge base for red teaming and offensive security._
 
@@ -691,6 +691,17 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - Game of active directory: https://github.com/Orange-Cyberdefense/GOAD
 - BadBlood: https://github.com/davidprowe/BadBlood create your own example Active Directory environment
+
+#### 云环境 _Vulnerable Cloud Environments_
+
+- Awesome-CloudSec-Labs: https://github.com/iknowjason/Awesome-CloudSec-Labs
+- K8s Lan Party: https://www.k8slanparty.com/
+- Metarget: https://github.com/Metarget/metarget
+- TerraformGoat: https://github.com/HXSecurity/TerraformGoat
+- Kubernetes Goat: https://github.com/madhuakula/kubernetes-goat
+- Attack Defense: https://attackdefense.pentesteracademy.com/listing?labtype=cloud-services&subtype=cloud-services-amazon-s3
+- AWSGoat: https://github.com/ine-labs/AWSGoat
+- CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 
 ### PoC _Proof of Concept_
 
@@ -1502,17 +1513,6 @@ Spring **Boot**
 - https://cloudsec.tencent.com/home/
 - https://owasp.org/www-project-kubernetes-top-ten/ OWASP Kubernetes Top Ten - 2022
 - https://www.microsoft.com/en-us/security/blog/2021/03/23/secure-containerized-environments-with-updated-threat-matrix-for-kubernetes/ threat matrix for Kubernetes
-
-### 云漏洞环境 _Vulnerable Cloud Environments_
-
-- Awesome-CloudSec-Labs: https://github.com/iknowjason/Awesome-CloudSec-Labs
-- K8s Lan Party: https://www.k8slanparty.com/
-- Metarget: https://github.com/Metarget/metarget
-- TerraformGoat: https://github.com/HXSecurity/TerraformGoat
-- Kubernetes Goat: https://github.com/madhuakula/kubernetes-goat
-- Attack Defense: https://attackdefense.pentesteracademy.com/listing?labtype=cloud-services&subtype=cloud-services-amazon-s3
-- AWSGoat: https://github.com/ine-labs/AWSGoat
-- CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 
 ### 云服务 _Cloud Services_
 
