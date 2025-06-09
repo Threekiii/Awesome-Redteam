@@ -703,6 +703,10 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - AWSGoat: https://github.com/ine-labs/AWSGoat
 - CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 
+#### AI 环境 _Vulnerable AI Environments_
+
+- AI prompt injection challenge: https://gandalf.lakera.ai/baseline
+
 ### PoC _Proof of Concept_
 
 > Be careful Malware，POC 库最新的 CVE 可能存在投毒风险。
@@ -1192,6 +1196,7 @@ Spring **Boot**
 
 #### Windows 提权 _Windows Exploits_
 
+- https://github.com/bitsadmin/wesng
 - https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 - https://github.com/SecWiki/windows-kernel-exploits
 - https://github.com/Al1ex/WindowsElevation
@@ -1221,6 +1226,7 @@ Spring **Boot**
 
 #### Windows 防御规避 _Windows Defense Evasion_
 
+- yetAnotherObfuscator: https://github.com/0xb11a1/yetAnotherObfuscator
 - hoaxshell: https://github.com/t3l3machus/hoaxshell
 - bypassAV: https://github.com/pureqh/bypassAV
 - GolangBypassAV: https://github.com/safe6Sec/GolangBypassAV
@@ -1249,6 +1255,7 @@ Spring **Boot**
 - rakshasa: https://github.com/Mob2003/rakshasa
 - Viper: https://github.com/FunnyWolf/Viper
 - ligolo-ng: https://github.com/nicocha30/ligolo-ng TUN interface
+- gost: https://github.com/ginuerzh/gost
 
 #### DNS 隧道 _DNS Tunnel_
 
