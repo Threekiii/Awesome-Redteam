@@ -755,6 +755,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://github.com/wh1t3p1g/ysomap
 - https://github.com/mbechler/marshalsec
 - https://github.com/qi4L/JYso
+- https://github.com/vulhub/JNDIExploit
 - https://github.com/welk1n/JNDI-Injection-Exploit
 - https://github.com/WhiteHSBG/JNDIExploit
 - https://github.com/rebeyond/JNDInjector
@@ -1364,6 +1365,7 @@ Spring **Boot**
 - PetitPotam: https://github.com/topotam/PetitPotam
 - PrinterBug: https://github.com/leechristensen/SpoolSample
 - DFSCoerce: https://github.com/Wh04m1001/DFSCoerce
+- WSPCoerce: https://github.com/slemire/WSPCoerce
 - ShadowCoerce: https://github.com/ShutdownRepo/ShadowCoerce
 - PrivExchange: https://github.com/dirkjanm/privexchange/
 - Coercer: https://github.com/p0dalirius/Coercer
@@ -1380,6 +1382,7 @@ Spring **Boot**
 - Impacket rbcd.py: https://github.com/fortra/impacket/blob/master/examples/rbcd.py
 - SharpRBCD: https://github.com/Kryp7os/SharpRBCD
 - PowerView.: https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
+- Delegations: https://github.com/TheManticoreProject/Delegations
 
 #### ADCS
 
@@ -1605,6 +1608,7 @@ Spring **Boot**
 - https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
 - https://github.com/open-compass/opencompass LLM 性能榜单
 - https://github.com/deepseek-ai/awesome-deepseek-integration DeepSeek 实用集成
+- https://github.com/raphabot/awesome-cybersecurity-agentic-ai
 
 #### 编排框架 _orchestration framework_
 
