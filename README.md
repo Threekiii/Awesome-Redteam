@@ -299,6 +299,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - hutool-crypto: https://github.com/dromara/hutool hutool-crypto 模块，提供对称、非对称和摘要算法封装
 - GmSSL: https://github.com/guanzhi/GmSSL SM2/SM3/SM4/SM9/SSL
 - gmssl-python: https://github.com/gongxian-ding/gmssl-python SM2/SM3/SM4/SM9
+- SM4: https://www.toolhelper.cn/SymmetricEncryption/SM4
 
 ### 网络空间测绘 _Cyberspace Search Engine_
 
@@ -459,6 +460,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - AlliN: https://github.com/P1-Team/AlliN
 - fscan: https://github.com/shadow1ng/fscan
 - TscanPlus: https://github.com/TideSec/TscanPlus
+- dddd: https://github.com/SleepingBag945/dddd
 - kscan: https://github.com/lcvvvv/kscan
 - Kunyu: https://github.com/knownsec/Kunyu
 - OneForAll: https://github.com/shmilylty/OneForAll
@@ -517,6 +519,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - https://github.com/EASY233/Finger
 - https://github.com/EdgeSecurityTeam/EHole
+- https://github.com/lemonlove7/EHole_magic
 - https://github.com/0x727/ObserverWard
 - https://github.com/TideSec/TideFinger_Go
 - https://github.com/zhzyker/dismap
@@ -696,6 +699,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - Awesome-CloudSec-Labs: https://github.com/iknowjason/Awesome-CloudSec-Labs
 - K8s Lan Party: https://www.k8slanparty.com/
+- badPods: https://github.com/BishopFox/badPods
 - Metarget: https://github.com/Metarget/metarget
 - TerraformGoat: https://github.com/HXSecurity/TerraformGoat
 - Kubernetes Goat: https://github.com/madhuakula/kubernetes-goat
@@ -864,7 +868,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - Struts2VulsTools: https://github.com/shack2/Struts2VulsTools
 
-Spring **Boot**
+**Spring Boot**
 
 - SpringBoot-Scan: https://github.com/AabyssZG/SpringBoot-Scan
 - SpringBootVulExploit: https://github.com/LandGrey/SpringBootVulExploit
@@ -1148,7 +1152,7 @@ Spring **Boot**
 
 ### 权限维持 _Persistence_
 
-#### 内存马 _MemShell _
+#### 内存马 _MemShell_
 
 - https://github.com/pen4uin/java-memshell-generator 👍
 - https://github.com/BeichenDream/GodzillaMemoryShellProject
@@ -1207,6 +1211,7 @@ Spring **Boot**
 - https://github.com/gtworek/PSBits/blob/master/Misc/EnableSeBackupPrivilege.ps1
 - https://github.com/itm4n/PrivescCheck
 - https://github.com/peass-ng/PEASS-ng/blob/master/winPEAS/winPEASexe/README.md
+- https://github.com/Ascotbe/Kernelhub
 
 #### Linux 提权 _Linux Exploits_
 
@@ -1587,6 +1592,7 @@ Spring **Boot**
 - https://github.com/inguardians/peirates kubernetes pentest tool
 - https://github.com/docker/docker-bench-security Docker CIS benchmarks analysis
 - https://github.com/aquasecurity/kube-bench Kubernetes CIS benchmarks analysis
+- https://github.com/aquasecurity/kube-hunter Hunt for security weaknesses in Kubernetes clusters
 
 ## AI 安全 _AI Security_
 
