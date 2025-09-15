@@ -976,6 +976,8 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://github.com/hanslub42/rlwrap a readline wrapper
 - https://github.com/Eugeny/tabby for Windows
 - https://github.com/warpdotdev/Warp for Mac
+- https://github.com/zellij-org/zellij terminal multiplexers
+- https://github.com/tmux terminal multiplexers
 - https://github.com/tomnomnom/anew tool for adding new lines to files, skipping duplicates
 - https://github.com/jlevy/the-art-of-command-line
 - Linux command line:
@@ -1051,6 +1053,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 ### _Payload and Bypass_
 
 - PayloadsAllTheThings: https://github.com/swisskyrepo/PayloadsAllTheThings
+- IP to Decimal: https://www.browserling.com/tools/ip-to-dec 127.0.0.1 >>> 2130706433
 - java.lang.Runtime.exec() Payload: https://payloads.net/Runtime.exec/
 - PHPFuck: https://github.com/splitline/PHPFuck
 - JSFuck: http://www.jsfuck.com/
@@ -1421,6 +1424,8 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://webshellchop.chaitin.cn/demo/
 - https://n.shellpub.com/
 - http://www.shellpub.com
+- https://github.com/jvoisin/php-malware-finder
+- https://www.d99net.net/
 
 ### 攻击研判 _Blue Teaming_
 
@@ -1470,39 +1475,56 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 #### 综合工具 _Nice Tools_
 
-- https://github.com/BlackINT3/OpenArk anti-rootkit
-- https://pythonarsenal.com/ reverse toolkit
+- OpenArk: https://github.com/BlackINT3/OpenArk anti-rootkit
+- python arsenal for RE: https://pythonarsenal.com/ reverse toolkit
+- IDA Pro: https://hex-rays.com/ida-pro/
+- IDA Pro MCP: https://github.com/mrexodia/ida-pro-mcp IDA with AI
+- Angr: https://github.com/angr/angr  binary analysis platform
+- Cutter: https://cutter.re/ open source RE platform
+- UPX: https://github.com/upx/upx
 
-#### ELF/EXE
+#### 静态分析 _Static Analysis_
 
-- IDA: https://hex-rays.com/ida-pro/
-- x64DBG: https://x64dbg.com/
-- Ollydbg: https://www.ollydbg.de/
+- checksec: https://github.com/slimm609/checksec
+- Detect-It-Easy: https://github.com/horsicq/Detect-It-Easy
 - ExeinfoPE: https://github.com/ExeinfoASL/ASL
 - PEiD: https://www.aldeid.com/wiki/PEiD
-- UPX: https://github.com/upx/upx
+- bindiff: https://www.zynamics.com/software.html
+- 在线编译器: https://godbolt.org/
+
+#### 动态调试 _Dynamic Analysis_
+
+- Ollydbg: https://www.ollydbg.de/
+- x64dbg: https://x64dbg.com/
 
 #### Java
 
 - jadx: https://github.com/skylot/jadx
 - JEB: https://www.pnfsoftware.com/
 - GDA: https://github.com/charles2gan/GDA-android-reversing-Tool
+- jd-gui: https://github.com/java-decompiler/jd-gui
+
+#### Mobile
+
+- scrcpy: https://github.com/Genymobile/scrcpy
+- android-reverse: https://github.com/WuFengXue/android-reverse
 
 #### Python
 
-- https://www.py2exe.org/ py->exe
-- https://github.com/pyinstaller/pyinstaller py->exe
-- https://github.com/matiasb/unpy2exe exe->pyc
-- https://github.com/extremecoders-re/pyinstxtractor exe->pyc
-- https://github.com/rocky/python-uncompyle6/ pyc->py
+- py2exe: https://www.py2exe.org/ py->exe
+- pyinstaller: https://github.com/pyinstaller/pyinstaller py->exe
+- unpy2exe: https://github.com/matiasb/unpy2exe exe->pyc
+- pyinstxtractor: https://github.com/extremecoders-re/pyinstxtractor exe->pyc
+- pycDcode: https://github.com/rocky/python-uncompyle6/ pyc->py
+- pycDcode: https://github.com/BarakAharoni/pycDcode
 
 #### Rust/Go/.NET
 
-- https://github.com/cha5126568/rust-reversing-helper
-- https://github.com/strazzere/golang_loader_assist
-- https://github.com/sibears/IDAGolangHelper
-- https://www.jetbrains.com/zh-cn/decompiler/
-- https://github.com/dnSpy/dnSpy
+- https://github.com/cha5126568/rust-reversing-helper for rust
+- https://github.com/strazzere/golang_loader_assist for golang
+- https://github.com/sibears/IDAGolangHelper for golang
+- https://www.jetbrains.com/zh-cn/decompiler/ for .NET
+- https://github.com/dnSpy/dnSpy for .NET
 
 ## 云安全 _Cloud Security_
 
