@@ -459,6 +459,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - AlliN: https://github.com/P1-Team/AlliN
 - fscan: https://github.com/shadow1ng/fscan
+- qscan: https://github.com/qi4L/qscan
 - TscanPlus: https://github.com/TideSec/TscanPlus
 - dddd: https://github.com/SleepingBag945/dddd
 - kscan: https://github.com/lcvvvv/kscan
@@ -765,6 +766,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://github.com/rebeyond/JNDInjector
 - https://github.com/A-D-Team/attackRmi
 - https://github.com/Java-Chains/web-chains
+- https://github.com/DeEpinGh0st/ysoserial
 
 #### PHP
 
@@ -854,7 +856,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - jdwp-shellifier: python2 https://github.com/IOActive/jdwp-shellifier
 - jdwp-shellifier: https://github.com/Lz1y/jdwp-shellifier
-
+- jascypt encryption & decryption: https://www.devglan.com/online-tools/jasypt-online-encryption-decryption
 **Shiro**
 
 - Shiro rememberMe Decrypt: https://vulsee.com/tools/shiroDe/shiroDecrypt.html
@@ -907,6 +909,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - VcenterKiller: https://github.com/Schira4396/VcenterKiller
 - VcenterKit:https://github.com/W01fh4cker/VcenterKit
+- vcenter_saml_login: https://github.com/horizon3ai/vcenter_saml_login extract the Identity Provider (IdP) cert
 
 **Zookeeper**
 
@@ -1158,8 +1161,10 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 #### 内存马 _MemShell_
 
 - https://github.com/pen4uin/java-memshell-generator 👍
+- https://github.com/ReaJason/MemShellParty
 - https://github.com/BeichenDream/GodzillaMemoryShellProject
 - https://github.com/1ucky7/jmg-for-Godzilla
+- https://github.com/X1r0z/Godzilla-Suo5MemShell
 - https://github.com/tennc/webshell
 - https://github.com/novysodope/RMI_Inj_MemShell
 - https://github.com/ce-automne/TomcatMemShell
@@ -1220,6 +1225,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - https://github.com/The-Z-Labs/linux-exploit-suggester
 - https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
+- https://github.com/liamg/traitor
 
 #### 数据库提权 _Database Exploits_
 
@@ -1437,9 +1443,13 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - https://github.com/AV1080p/Benchmarks
 - https://github.com/xiaoyunjie/Shell_Script
+
+### 应急响应 _Incident Response_
+
 - https://github.com/grayddq/GScan
 - https://github.com/ppabc/security_check
 - https://github.com/T0xst/linux
+- https://github.com/al0ne/LinuxCheck
 
 ### 勒索病毒 _Ransomware_
 
