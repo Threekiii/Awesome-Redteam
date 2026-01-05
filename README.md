@@ -1,5 +1,17 @@
 # Awesome-Redteam
 
+<p align="left">
+  <a href="https://github.com/Threekiii/Awesome-Redteam">
+    <img src="https://badgen.net/github/stars/Threekiii/Awesome-Redteam?color=yellow&icon=github" alt="stars">
+  </a>
+  <a href="https://github.com/Threekiii/Awesome-POC">
+    <img src="https://badgen.net/github/forks/Threekiii/Awesome-Redteam?color=blue&icon=github" alt="forks">
+  </a>
+  <a href="https://github.com/Threekiii/Awesome-POC">
+    <img src="https://badgen.net/github/last-commit/Threekiii/Awesome-Redteam?color=green" alt="last-commit">
+  </a>
+</p>
+
 **❗【免责声明】本项目所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本项目无关。 使用本项目前请先阅读 [法律法规](https://github.com/Threekiii/Awesome-Laws)。**
 
 _Disclaimer: The technologies, concepts, and tools provided in this Git repository are intended for educational and research purposes only. Any use for illegal activities, unauthorized penetration testing, or commercial purposes is strictly prohibited. Please read the [Awesome-Laws](https://github.com/Threekiii/Awesome-Laws) before using this repository._
@@ -7,8 +19,6 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 📖 一个攻防知识库。_A knowledge base for red teaming and offensive security._
 
 👍 means recommand 推荐使用
-
-> _to be continued..._
 
 ## _Roadmap_
 
@@ -381,7 +391,7 @@ Flask_Session_Decryptor: Flask session注入解密
 
 - https://www.postman.com/explore/ public API
 - https://rapidapi.com/ public API
-- https://serene-agnesi-57a014.netlify.app/ discover secret API keys:
+- https://serene-agnesi-57a014.netlify.app/ discover secret API keys
 
 #### 源代码检索 _Source Code Search_
 
@@ -1725,3 +1735,6 @@ MacOS 通过 warp + ohmyzsh 优化原生终端，warp 自带命令自动补全�
 ### 如何解决终端中文乱码
 
 Windows 注册表进入 `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor`，创建字符串值 `autorun`，赋值为 `chcp 65001`。
+
+
+![Stargazers over time](https://starchart.cc/Threekiii/Awesome-Redteam.svg?background=%23FFFFFF&axis=%23333333&line=%23009307)
