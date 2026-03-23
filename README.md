@@ -1564,6 +1564,10 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://www.jetbrains.com/zh-cn/decompiler/ for .NET
 - https://github.com/dnSpy/dnSpy for .NET
 
+#### JavaScript
+
+- https://github.com/0xsdeo/AntiDebug_Breaker
+
 ## 云安全 _Cloud Security_
 
 ### 开源资源 _Resources_

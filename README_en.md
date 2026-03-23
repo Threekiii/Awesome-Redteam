@@ -1510,6 +1510,10 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - https://www.jetbrains.com/zh-cn/decompiler/ for .NET
 - https://github.com/dnSpy/dnSpy for .NET
 
+#### JavaScript
+
+- https://github.com/0xsdeo/AntiDebug_Breaker
+
 ## Cloud Security
 
 ### Resources
@@ -1629,6 +1633,9 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - https://github.com/jd-opensource/JoySafeter an "operating system" for security capabilities
 - https://github.com/Significant-Gravitas/AutoGPT AutoGPT is a powerful platform that allows you to create, deploy, and manage continuous AI agents that automate complex workflows
 - https://github.com/aliasrobotics/cai Cybersecurity AI (CAI), the framework for AI Security
+- - https://github.com/vxcontrol/pentagi Fully autonomous AI Agents system
+- https://github.com/Ed1s0nZ/CyberStrikeAI AI-native security testing platform
+- https://github.com/KeygraphHQ/shannon Autonomous, white-box AI pentester for web applications and APIs
 
 ### Agent Skills
 
@@ -1637,6 +1644,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - https://github.com/libukai/awesome-agent-skills Quick Start, Recommended Skills, Latest News, and Practical Case Studies
 - https://github.com/JimLiu/baoyu-skills for Claude Code
 - https://github.com/anthropics/skills
+- - https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
 
 ## Productivity-Boosting Auxiliary Tools
 
