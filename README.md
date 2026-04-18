@@ -338,6 +338,7 @@ Flask_Session_Decryptor: Flask session注入解密
 
 - Wayback Machine: https://web.archive.org/ 历史网页存档
 - VisualPing: https://visualping.io/ 网站变更监控
+- Snaplert: https://snaplert.com 网站变更监控（可视化像素差异、AI摘要、元素选择器）
 - Dark Web Exposure: https://www.immuniweb.com/darkweb/
 - SG TCP/IP: https://www.speedguide.net/ports.php 端口数据库
 
