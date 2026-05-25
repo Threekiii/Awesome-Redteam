@@ -1200,6 +1200,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - https://github.com/The-Z-Labs/linux-exploit-suggester
 - https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
 - https://github.com/liamg/traitor
+- https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 
 #### Database Exploits
 

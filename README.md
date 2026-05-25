@@ -1254,6 +1254,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://github.com/The-Z-Labs/linux-exploit-suggester
 - https://github.com/InteliSecureLabs/Linux_Exploit_Suggester
 - https://github.com/liamg/traitor
+- https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 
 #### 数据库提权 _Database Exploits_
 
