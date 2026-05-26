@@ -468,6 +468,7 @@ Flask_Session_Decryptor: Flask session注入解密
 - ichunqiu: https://yunjing.ichunqiu.com/
 - echoCTF: https://github.com/echoCTF/echoCTF.RED 适用于 CTF 竞赛
 - Vulnhub: https://www.vulnhub.com/
+- LabEx: https://labex.io/
 
 Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，再通过 UTM 运行：
 
