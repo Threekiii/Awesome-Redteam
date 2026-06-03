@@ -20,7 +20,7 @@
 
 ## _Roadmap_
 
-![](images/README/Awesome-Redteam-20260302.png)
+![](images/README/Awesome-Redteam-20260603.png)
 
 ## Contents
 
@@ -76,7 +76,6 @@
 		- [Vulnerable IoT Environment](#vulnerable-iot-environment)
 		- [Vulnerable Active Directory Environment](#vulnerable-active-directory-environment)
 		- [Vulnerable Cloud Environments](#vulnerable-cloud-environments)
-		- [Vulnerable AI Environments](#vulnerable-ai-environments)
 	- [Proof of Concept](#proof-of-concept)
 		- [PoC/ExP](#pocexp)
 		- [PoC Templates](#poc-templates)
@@ -193,18 +192,6 @@
 		- [Nice Tools](#nice-tools)
 		- [Docker](#docker)
 		- [Kubernetes](#kubernetes)
-- [AI Security](#ai-security)
-	- [Resources](#resources)
-	- [Model Rankings & Evaluation Platforms](#model-rankings--evaluation-platforms)
-	- [AI Agent Security & Guardrails](#ai-agent-security--guardrails)
-	- [AI-Powered Red Teaming & Offensive Automation](#ai-powered-red-teaming--offensive-automation)
-	- [Agent Skills](#agent-skills)
-- [Productivity-Boosting Auxiliary Tools](#productivity-boosting-auxiliary-tools)
-	- [LLM](#llm)
-		- [Open-Source Resources](#open-source-resources)
-		- [Orchestration Framework](#orchestration-framework)
-		- [Prompts](#prompts)
-		- [Deployment](#deployment)
 - [Productivity-Boosting Usage Methods](#productivity-boosting-usage-methods)
 	- [How to Use Alias Quickly](#how-to-use-alias-quickly)
 	- [How to Optimize the Native Terminal](#how-to-optimize-the-native-terminal)
@@ -675,10 +662,6 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - AWSGoat: https://github.com/ine-labs/AWSGoat
 - CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 
-#### Vulnerable AI Environments
-
-- AI prompt injection challenge: https://gandalf.lakera.ai/baseline
-
 ### Proof of Concept
 
 > Be careful Malware, the latest CVEs in POC repositories may have poisoning risks.
@@ -784,7 +767,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 
 ### CMS/OA
 
-- TongdaScan_go https://github.com/Fu5r0dah/TongdaScan_go
+- TongdaScan_go: https://github.com/Fu5r0dah/TongdaScan_go
 - Apt_t00ls: https://github.com/White-hua/Apt_t00ls
 - OA-EXPTOOL: https://github.com/LittleBear4/OA-EXPTOOL
 - DecryptTools: https://github.com/wafinfo/DecryptTools 22 types of encryption and decryption
@@ -818,7 +801,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 
 - NacosRce: https://github.com/c0olw/NacosRce/
 - nacosleak: https://github.com/a1phaboy/nacosleak
-- nacosScan:https://github.com/Whoopsunix/nacosScan
+- nacosScan: https://github.com/Whoopsunix/nacosScan
 - NacosExploitGUI: https://github.com/charonlight/NacosExploitGUI
 
 **Nps**
@@ -854,7 +837,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - jasypt decrypt: https://www.devglan.com/online-tools/jasypt-online-encryption-decryption Jasypt decryption tool
 - heapdump_tool: https://github.com/wyzxxz/heapdump_tool
 - Memory Analyzer: https://eclipse.dev/mat/download/
-- JDumpSpider:https://github.com/whwlsfb/JDumpSpider
+- JDumpSpider: https://github.com/whwlsfb/JDumpSpider
 
 **Tomcat**
 
@@ -882,7 +865,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 **vCenter**
 
 - VcenterKiller: https://github.com/Schira4396/VcenterKiller
-- VcenterKit:https://github.com/W01fh4cker/VcenterKit
+- VcenterKit: https://github.com/W01fh4cker/VcenterKit
 - vcenter_saml_login: https://github.com/horizon3ai/vcenter_saml_login extract the Identity Provider (IdP) cert
 
 **Zookeeper**
@@ -904,10 +887,10 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - ZeroOmega: https://github.com/zero-peak/ZeroOmega proxy switchyOmega for manifest v3
 - serp-analyzer: https://leadscloud.github.io/serp-analyzer/ show domain/IP
 - FindSomething: https://github.com/ResidualLaugh/FindSomething find something in source code or javascript
-- Hack Bar:https://github.com/0140454/hackbar
+- Hack Bar: https://github.com/0140454/hackbar
 - Wappalyzer: https://www.wappalyzer.com/ identify technologies on websites
-- EditThisCookie:https://www.editthiscookie.com/
-- Cookie-Editor:https://github.com/Moustachauve/cookie-editor
+- EditThisCookie: https://www.editthiscookie.com/
+- Cookie-Editor: https://github.com/Moustachauve/cookie-editor
 - Disable JavaScript: https://github.com/dpacassi/disable-javascript
 - Heimdallr: https://github.com/Ghr07h/Heimdallr for honeypot
 - anti-honeypot:https://github.com/cnrstar/anti-honeypot for honeypot
@@ -1403,7 +1386,6 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 ### Webshell Detection
 
 - https://webshellchop.chaitin.cn/demo/
-- https://n.shellpub.com/
 - http://www.shellpub.com
 - https://github.com/jvoisin/php-malware-finder
 - https://www.d99net.net/
@@ -1488,6 +1470,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - JEB: https://www.pnfsoftware.com/
 - GDA: https://github.com/charles2gan/GDA-android-reversing-Tool
 - jd-gui: https://github.com/java-decompiler/jd-gui
+- jar-analyzer: https://github.com/jar-analyzer/jar-analyzer/
 
 #### Mobile
 
@@ -1604,92 +1587,6 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - https://github.com/docker/docker-bench-security Docker CIS benchmarks analysis
 - https://github.com/aquasecurity/kube-bench Kubernetes CIS benchmarks analysis
 - https://github.com/aquasecurity/kube-hunter Hunt for security weaknesses in Kubernetes clusters
-
-## AI Security
-
-### Resources
-
-- GPTSecurity: https://www.gptsecurity.info/
-- Nsfocus AI Security Matrix: https://aiss.nsfocus.com/
-
-### Model Rankings & Evaluation Platforms
-
-- https://openrouter.ai/rankings OpenRouter AI Rankings
-- https://arena.ai/leaderboard AI Arena Benchmark Leaderboard
-- https://github.com/open-compass/opencompass OpenCompass LLM Evaluation Platform
-
-### AI Agent Security & Guardrails
-
-- https://github.com/kappa9999/ClawShield for OpenClaw
-- https://semgrep.dev/blog/2026/openclaw-security-engineers-cheat-sheet cheetsheet for OpenClaw
-
-### AI-Powered Red Teaming & Offensive Automation
-
-> Some projects may not be fully tested. Use with caution.
-
-- https://github.com/GreyDGL/PentestGPT Automated Penetration Testing Agentic Framework Powered by Large Language Models.
-- https://github.com/NVIDIA/garak the LLM vulnerability scanner
-- http://github.com/SuperagenticAI/superclaw Red-Team AI Agents
-- https://github.com/usestrix/strix Open-source AI hackers to find and fix your app’s vulnerabilities
-- https://github.com/jd-opensource/JoySafeter an "operating system" for security capabilities
-- https://github.com/Significant-Gravitas/AutoGPT AutoGPT is a powerful platform that allows you to create, deploy, and manage continuous AI agents that automate complex workflows
-- https://github.com/aliasrobotics/cai Cybersecurity AI (CAI), the framework for AI Security
-- - https://github.com/vxcontrol/pentagi Fully autonomous AI Agents system
-- https://github.com/Ed1s0nZ/CyberStrikeAI AI-native security testing platform
-- https://github.com/KeygraphHQ/shannon Autonomous, white-box AI pentester for web applications and APIs
-
-### Agent Skills
-
-- https://github.com/JackyST0/awesome-agent-skills for Cursor, Claude Code, GitHub Copilot, and more
-- https://github.com/affaan-m/everything-claude-code for Claude Code, Codex, Cowork, and beyond (Anthropic hackathon winner)
-- https://github.com/libukai/awesome-agent-skills Quick Start, Recommended Skills, Latest News, and Practical Case Studies
-- https://github.com/JimLiu/baoyu-skills for Claude Code
-- https://github.com/anthropics/skills
-- - https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
-
-## Productivity-Boosting Auxiliary Tools
-
-### LLM
-
-#### Open-Source Resources
-
-- https://github.com/Hannibal046/Awesome-LLM
-- https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
-- https://github.com/open-compass/opencompass LLM Performance Rankings
-- https://github.com/deepseek-ai/awesome-deepseek-integration DeepSeek Practical Integrations
-- https://github.com/raphabot/awesome-cybersecurity-agentic-ai
-
-#### Orchestration Framework
-
-- https://github.com/langchain-ai/langchain
-
-#### Prompts
-
-- https://github.com/f/awesome-chatgpt-prompts
-- https://github.com/PlexPt/awesome-chatgpt-prompts-zh
-- https://github.com/langgptai/wonderful-prompts
-
-#### Deployment
-
-- huggingface: https://huggingface.co/ Large language model download (Github of AI field)
-- ollama: https://github.com/ollama/ollama Start and run large language models
-- open-webui: https://github.com/open-webui/open-webui Offline WebUI
-- chatbox: https://github.com/Bin-Huang/chatbox User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...) Local client for MacOS/Windows/Linux
-- anythingllm: https://anythingllm.com/ Run local LLMs fast with powerful built-in tools and features. Local client for MacOS/Windows/Linux
-- enchanted: https://github.com/AugustDev/enchanted Enchanted is used for chatting with private self hosted language models. Local client for iOS/MacOS
-- chatbox: https://github.com/Bin-Huang/chatbox Local client for Windows/MacOS/Linux
-- obsidian-copilot: https://github.com/logancyang/obsidian-copilot
-- continue: https://github.com/continuedev/continue
-
-If you want to quickly deploy LLM locally via ollama, you can refer to this technical stack:
-
-- Run large language models: ollama
-- Run large language models and deploy WebUI: ollama + open-webui
-- Run large language models and deploy applications: ollama + enchanted
-- Run large language models and integrate with local editors (e.g., Obsidian): ollama + copilot (Obsidian plugin)
-- Run large language models and integrate with local code editors (e.g., Vscode): ollama + continue (Vscode plugin)
-- Run large language models and build local RAG applications: ollama + langchain
-- ...
 
 ## Productivity-Boosting Usage Methods
 

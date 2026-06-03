@@ -4,10 +4,10 @@
   <a href="https://github.com/Threekiii/Awesome-Redteam">
     <img src="https://badgen.net/github/stars/Threekiii/Awesome-Redteam?color=yellow&icon=github" alt="stars">
   </a>
-  <a href="https://github.com/Threekiii/Awesome-POC">
+  <a href="https://github.com/Threekiii/Awesome-Redteam">
     <img src="https://badgen.net/github/forks/Threekiii/Awesome-Redteam?color=blue&icon=github" alt="forks">
   </a>
-  <a href="https://github.com/Threekiii/Awesome-POC">
+  <a href="https://github.com/Threekiii/Awesome-Redteam">
     <img src="https://badgen.net/github/last-commit/Threekiii/Awesome-Redteam?color=green" alt="last-commit">
   </a>
 </p>
@@ -22,7 +22,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
 ## _Roadmap_
 
-![](images/README/Awesome-Redteam-20260302.png)
+![](images/README/Awesome-Redteam-20260603.png)
 
 ## 目录 _Contents_
 
@@ -82,7 +82,6 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 		- [工控环境 _Vulnerable IoT Environment_](#%E5%B7%A5%E6%8E%A7%E7%8E%AF%E5%A2%83-vulnerable-iot-environment)
 		- [域环境 _Vulnerable Active Directory Environment_](#%E5%9F%9F%E7%8E%AF%E5%A2%83-vulnerable-active-directory-environment)
 		- [云环境 _Vulnerable Cloud Environments_](#%E4%BA%91%E7%8E%AF%E5%A2%83-vulnerable-cloud-environments)
-		- [AI 环境 _Vulnerable AI Environments_](#ai-%E7%8E%AF%E5%A2%83-vulnerable-ai-environments)
 	- [PoC _Proof of Concept_](#poc-proof-of-concept)
 		- [PoC/ExP](#pocexp)
 		- [PoC 模板 _PoC Templates_](#poc-%E6%A8%A1%E6%9D%BF-poc-templates)
@@ -199,18 +198,6 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 		- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
 		- [容器 _Docker_](#%E5%AE%B9%E5%99%A8-docker)
 		- [集群 _Kubernetes_](#%E9%9B%86%E7%BE%A4-kubernetes)
-- [AI 安全 _AI Security_](#ai-%E5%AE%89%E5%85%A8-ai-security)
-	- [开源资源 _Resources_](#%E5%BC%80%E6%BA%90%E8%B5%84%E6%BA%90-resources)
-	- [模型榜单与评测 _Model Rankings & Evaluation Platforms_](#%E6%A8%A1%E5%9E%8B%E6%A6%9C%E5%8D%95%E4%B8%8E%E8%AF%84%E6%B5%8B-model-rankings--evaluation-platforms)
-	- [安全围栏与加固 _AI Agent Security & Guardrails_](#%E5%AE%89%E5%85%A8%E5%9B%B4%E6%A0%8F%E4%B8%8E%E5%8A%A0%E5%9B%BA-ai-agent-security--guardrails)
-	- [攻防自动化 _AI-Powered Red Teaming & Offensive Automation_](#%E6%94%BB%E9%98%B2%E8%87%AA%E5%8A%A8%E5%8C%96-ai-powered-red-teaming--offensive-automation)
-	- [Agent Skills 工程 _Agent Skills_](#agent-skills-%E5%B7%A5%E7%A8%8B-agent-skills)
-- [提高生产力的辅助工具](#%E6%8F%90%E9%AB%98%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%9A%84%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7)
-	- [_LLM_](#llm)
-		- [开源资源 _Open-Source Resources_](#%E5%BC%80%E6%BA%90%E8%B5%84%E6%BA%90-open-source-resources)
-		- [编排框架 _orchestration framework_](#%E7%BC%96%E6%8E%92%E6%A1%86%E6%9E%B6-orchestration%C2%A0framework)
-		- [提示词 _Prompts_](#%E6%8F%90%E7%A4%BA%E8%AF%8D-prompts)
-		- [部署 _Deployment_](#%E9%83%A8%E7%BD%B2-deployment)
 - [提高生产力的使用姿势](#%E6%8F%90%E9%AB%98%E7%94%9F%E4%BA%A7%E5%8A%9B%E7%9A%84%E4%BD%BF%E7%94%A8%E5%A7%BF%E5%8A%BF)
 	- [如何快速使用 alias](#%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8-alias)
 	- [如何优化原生终端](#%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%E5%8E%9F%E7%94%9F%E7%BB%88%E7%AB%AF)
@@ -730,10 +717,6 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - AWSGoat: https://github.com/ine-labs/AWSGoat
 - CloudGoat: https://github.com/RhinoSecurityLabs/cloudgoat
 
-#### AI 环境 _Vulnerable AI Environments_
-
-- AI prompt injection challenge: https://gandalf.lakera.ai/baseline
-
 ### PoC _Proof of Concept_
 
 > Be careful Malware，POC 库最新的 CVE 可能存在投毒风险。
@@ -839,7 +822,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 ### CMS/OA 漏洞 _CMS/OA_
 
-- TongdaScan_go https://github.com/Fu5r0dah/TongdaScan_go
+- TongdaScan_go: https://github.com/Fu5r0dah/TongdaScan_go
 - Apt_t00ls: https://github.com/White-hua/Apt_t00ls
 - OA-EXPTOOL: https://github.com/LittleBear4/OA-EXPTOOL
 - DecryptTools: https://github.com/wafinfo/DecryptTools 22 种加解密
@@ -873,7 +856,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 - NacosRce: https://github.com/c0olw/NacosRce/
 - nacosleak: https://github.com/a1phaboy/nacosleak
-- nacosScan:https://github.com/Whoopsunix/nacosScan
+- nacosScan: https://github.com/Whoopsunix/nacosScan
 - NacosExploitGUI: https://github.com/charonlight/NacosExploitGUI
 
 **Nps**
@@ -908,7 +891,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - swagger-exp: https://github.com/lijiejie/swagger-exp
 - heapdump_tool: https://github.com/wyzxxz/heapdump_tool
 - Memory Analyzer: https://eclipse.dev/mat/download/
-- JDumpSpider:https://github.com/whwlsfb/JDumpSpider
+- JDumpSpider: https://github.com/whwlsfb/JDumpSpider
 
 **Tomcat**
 
@@ -936,7 +919,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 **vCenter**
 
 - VcenterKiller: https://github.com/Schira4396/VcenterKiller
-- VcenterKit:https://github.com/W01fh4cker/VcenterKit
+- VcenterKit: https://github.com/W01fh4cker/VcenterKit
 - vcenter_saml_login: https://github.com/horizon3ai/vcenter_saml_login 提取身份提供商（IdP）证书
 
 **Zookeeper**
@@ -958,10 +941,10 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - ZeroOmega: https://github.com/zero-peak/ZeroOmega 适配 manifest v3 的 proxy switchyOmega
 - serp-analyzer: https://leadscloud.github.io/serp-analyzer/ 显示域名/IP
 - FindSomething: https://github.com/ResidualLaugh/FindSomething 在源代码或 javascript 中查找内容
-- Hack Bar:https://github.com/0140454/hackbar
+- Hack Bar: https://github.com/0140454/hackbar
 - Wappalyzer: https://www.wappalyzer.com/ 识别网站使用的技术栈
-- EditThisCookie:https://www.editthiscookie.com/
-- Cookie-Editor:https://github.com/Moustachauve/cookie-editor
+- EditThisCookie: https://www.editthiscookie.com/
+- Cookie-Editor: https://github.com/Moustachauve/cookie-editor
 - Disable JavaScript: https://github.com/dpacassi/disable-javascript
 - Heimdallr: https://github.com/Ghr07h/Heimdallr 蜜罐检测工具
 - anti-honeypot:https://github.com/cnrstar/anti-honeypot 蜜罐检测工具
@@ -1457,7 +1440,6 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 ### Webshell 查杀 _Webshell Detection_
 
 - https://webshellchop.chaitin.cn/demo/
-- https://n.shellpub.com/
 - http://www.shellpub.com
 - https://github.com/jvoisin/php-malware-finder
 - https://www.d99net.net/
@@ -1542,6 +1524,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - JEB: https://www.pnfsoftware.com/
 - GDA: https://github.com/charles2gan/GDA-android-reversing-Tool
 - jd-gui: https://github.com/java-decompiler/jd-gui
+- jar-analyzer: https://github.com/jar-analyzer/jar-analyzer/
 
 #### Mobile
 
@@ -1658,92 +1641,6 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - https://github.com/docker/docker-bench-security Docker CIS 基准测试分析工具
 - https://github.com/aquasecurity/kube-bench Kubernetes CIS 基准测试分析工具
 - https://github.com/aquasecurity/kube-hunter Kubernetes 安全弱点探测工具
-
-## AI 安全 _AI Security_
-
-### 开源资源 _Resources_
-
-- GPTSecurity: https://www.gptsecurity.info/
-- Nsfocus AI 安全矩阵: https://aiss.nsfocus.com/
-
-### 模型榜单与评测 _Model Rankings & Evaluation Platforms_
-
-- https://openrouter.ai/rankings OpenRouter AI 排行榜
-- https://arena.ai/leaderboard AI Arena 基准测试榜单
-- https://github.com/open-compass/opencompass OpenCompass 大模型评测平台
-
-### 安全围栏与加固 _AI Agent Security & Guardrails_
-
-- https://github.com/kappa9999/ClawShield 适用于 OpenClaw
-- https://semgrep.dev/blog/2026/openclaw-security-engineers-cheat-sheet OpenClaw 安全工程师速查表
-
-### 攻防自动化 _AI-Powered Red Teaming & Offensive Automation_
-
-> Some projects may not be fully tested. Use with caution. 部分项目未经完整测试，请谨慎使用。
-
-- https://github.com/GreyDGL/PentestGPT 基于大语言模型的自动化渗透测试智能体框架
-- https://github.com/NVIDIA/garak LLM 漏洞扫描器
-- http://github.com/SuperagenticAI/superclaw 红队 AI 智能体
-- https://github.com/usestrix/strix 开源 AI 黑客工具，用于发现并修复应用漏洞
-- https://github.com/jd-opensource/JoySafeter 安全能力操作系统
-- https://github.com/Significant-Gravitas/AutoGPT AutoGPT 是一个强大平台，可创建、部署与管理持续运行的 AI 智能体，自动化复杂工作流
-- https://github.com/aliasrobotics/cai 网络安全 AI（CAI），AI 安全框架
-- https://github.com/vxcontrol/pentagi 自动化安全测试
-- https://github.com/Ed1s0nZ/CyberStrikeAI AI 原生安全测试平台
-- https://github.com/KeygraphHQ/shannon AI 渗透测试工具
-
-### Agent Skills 工程 _Agent Skills_
-
-- https://github.com/JackyST0/awesome-agent-skills 适用于 Cursor、Claude Code、GitHub Copilot 等
-- https://github.com/affaan-m/everything-claude-code 适用于 Claude Code、Codex、Cowork 等（Anthropic 黑客松冠军项目）
-- https://github.com/libukai/awesome-agent-skills 快速入门、推荐技能、最新资讯与实战案例
-- https://github.com/JimLiu/baoyu-skills 适用于 Claude Code
-- https://github.com/anthropics/skills
-- https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md Skills 生成
-
-## 提高生产力的辅助工具
-
-### _LLM_
-
-#### 开源资源 _Open-Source Resources_
-
-- https://github.com/Hannibal046/Awesome-LLM
-- https://github.com/HqWu-HITCS/Awesome-Chinese-LLM
-- https://github.com/open-compass/opencompass LLM 性能榜单
-- https://github.com/deepseek-ai/awesome-deepseek-integration DeepSeek 实用集成
-- https://github.com/raphabot/awesome-cybersecurity-agentic-ai
-
-#### 编排框架 _orchestration framework_
-
-- https://github.com/langchain-ai/langchain
-
-#### 提示词 _Prompts_
-
-- https://github.com/f/awesome-chatgpt-prompts
-- https://github.com/PlexPt/awesome-chatgpt-prompts-zh
-- https://github.com/langgptai/wonderful-prompts
-
-#### 部署 _Deployment_
-
-- huggingface: https://huggingface.co/ 大型语言模型下载（AI 界 Github ）
-- ollama: https://github.com/ollama/ollama 启动并运行大型语言模型
-- open-webui: https://github.com/open-webui/open-webui 离线 WebUI
-- chatbox: https://github.com/Bin-Huang/chatbox 适用于 AI 模型/大语言模型的友好型桌面客户端（GPT、Claude、Gemini、Ollama...），支持 MacOS/Windows/Linux 系统
-- anythingllm: https://anythingllm.com/ 借助强大的内置工具和功能快速运行本地大语言模型，支持 MacOS/Windows/Linux 系统
-- enchanted: https://github.com/AugustDev/enchanted Enchanted 用于与私有自托管语言模型交互，支持 iOS/MacOS 系统
-- chatbox: https://github.com/Bin-Huang/chatbox 本地客户端 for Windows/MacOS/Linux
-- obsidian-copilot: https://github.com/logancyang/obsidian-copilot
-- continue: https://github.com/continuedev/continue
-
-如果你想通过 ollama 在**本地**快速部署 LLM，可以参考这套技术栈：
-
-- 运行大型语言模型：ollama
-- 运行大型语言模型并部署 WebUI：ollama + open-webui
-- 运行大型语言模型并部署应用程序：ollama + enchanted
-- 运行大型语言模型并与本地编辑器集成（例如 Obsidian）：ollama + copilot（Obsidian 插件）
-- 运行大型语言模型并与本地代码编辑器集成（例如 Vscode）： ollama + continue（Vscode 插件）
-- 运行大型语言模型并构建本地 RAG 应用：ollama + langchain
-- ...
 
 ## 提高生产力的使用姿势
 
