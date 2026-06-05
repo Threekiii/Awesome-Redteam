@@ -16,7 +16,7 @@
 
 📖 _A knowledge base for red teaming and offensive security._
 
-👍 means recommand
+👍 means recommend
 
 ## _Roadmap_
 

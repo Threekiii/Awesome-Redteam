@@ -18,7 +18,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 
 📖 一个攻防知识库。_A knowledge base for red teaming and offensive security._
 
-👍 means recommand 推荐使用
+👍 means recommend 推荐使用
 
 ## _Roadmap_
 
