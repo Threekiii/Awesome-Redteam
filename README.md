@@ -105,7 +105,7 @@ _Disclaimer: The technologies, concepts, and tools provided in this Git reposito
 	- [综合工具 _Nice Tools_](#%E7%BB%BC%E5%90%88%E5%B7%A5%E5%85%B7-nice-tools)
 	- [渗透插件 _Extensions_](#%E6%B8%97%E9%80%8F%E6%8F%92%E4%BB%B6-extensions)
 		- [Chrome](#chrome)
-		- [Burpsuite](#burpsuite)
+		- [Burp Suite](#burp-suite)
 		- [Yakit](#yakit)
 	- [辅助工具 _Auxiliary Tools_](#%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7-auxiliary-tools)
 		- [工具集 _Open-Source Toolkit_](#%E5%B7%A5%E5%85%B7%E9%9B%86-open-source-toolkit)
@@ -953,7 +953,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - json-formatter: https://github.com/callumlocke/json-formatter
 - markdown-viewer: https://github.com/simov/markdown-viewer
 
-#### Burpsuite
+#### Burp Suite
 
 - HaE: https://github.com/gh0stkey/HaE 高亮和提取工具
 - Log4j2Scan: https://github.com/whwlsfb/Log4j2Scan Log4j 漏洞扫描工具
@@ -961,6 +961,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - BurpCrypto: https://github.com/whwlsfb/BurpCrypto 支持 AES/RSA/DES/ExecJs 加密解密
 - domain hunter: https://github.com/bit4woo/domain_hunter_pro 域名收集工具
 - BurpAppletPentester: https://github.com/mrknow001/BurpAppletPentester sessionkey 解密工具
+- autoDecoder: https://github.com/f0ng/autoDecoder 加解密
 
 #### Yakit
 
@@ -1551,6 +1552,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 #### JavaScript
 
 - https://github.com/0xsdeo/AntiDebug_Breaker
+- https://github.com/jxhczhl/JsRpc
 
 ## 云安全 _Cloud Security_
 

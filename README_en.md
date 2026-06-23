@@ -99,7 +99,7 @@
 	- [Nice Tools](#nice-tools)
 	- [Extensions](#extensions)
 		- [Chrome](#chrome)
-		- [Burpsuite](#burpsuite)
+		- [Burp Suite](#burp-suite)
 		- [Yakit](#yakit)
 	- [Auxiliary Tools](#auxiliary-tools)
 		- [Open-Source Toolkit](#open-source-toolkit)
@@ -899,7 +899,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - json-formatter: https://github.com/callumlocke/json-formatter
 - markdown-viewer: https://github.com/simov/markdown-viewer
 
-#### Burpsuite
+#### Burp Suite
 
 - HaE: https://github.com/gh0stkey/HaE highlighter and extractor
 - Log4j2Scan: https://github.com/whwlsfb/Log4j2Scan for Log4j
@@ -907,6 +907,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 - BurpCrypto: https://github.com/whwlsfb/BurpCrypto support AES/RSA/DES/ExecJs
 - domain hunter: https://github.com/bit4woo/domain_hunter_pro domain hunter
 - BurpAppletPentester: https://github.com/mrknow001/BurpAppletPentester sessionkey decryptor
+- autoDecoder: https://github.com/f0ng/autoDecoder encrypt/decrypt
 
 #### Yakit
 
@@ -1497,6 +1498,7 @@ For Mac M1 to use ova format images like Vulnhub, you need to convert ova to qco
 #### JavaScript
 
 - https://github.com/0xsdeo/AntiDebug_Breaker
+- https://github.com/jxhczhl/JsRpc
 
 ## Cloud Security
 
