@@ -931,6 +931,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 ### 综合工具 _Nice Tools_
 
+- Darkmoon: https://github.com/ASCIT31/Dark-Moon 自主式 AI 渗透测试平台，通过 Markdown 剧本与智能体推理编排 80 多种攻击工具，基于 MCP 控制执行，覆盖 Web、云、域、Kubernetes 与 API
 - Yakit: https://github.com/yaklang/yakit
 - Burpsuite: https://portswigger.net/burp
 
