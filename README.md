@@ -251,6 +251,9 @@ Flask_Session_Decryptor: Flask session注入解密
 
 ## 开源导航 _Open-Source Navigation_
 
+- [Violin](https://github.com/Strategic-Automation/violin) - AI-native pentest framework and Hermes agent profile/plugin for autonomous, human-in-the-loop offensive security (IDOR/SSRF/XSS triage, multi-stage agentic testing).
+
+
 ### 编解码/加解密 _Cryptography_
 
 #### 在线工具 _Online Tools_
