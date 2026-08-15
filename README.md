@@ -1095,6 +1095,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - SharpHostInfo: https://github.com/shmilylty/SharpHostInfo
 - SharpScan: https://github.com/INotGreen/SharpScan
 - smbmap: https://github.com/ShawnDEvans/smbmap SMB 枚举
+- Xquik (Independent X/Twitter search, followers, monitors, MCP): https://github.com/Xquik-dev/x-twitter-scraper
 
 ### 凭证获取 _Credential Access_
 
@@ -1203,7 +1204,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 
 #### Linux 本地枚举 _Linux Local Enumeration_
 
-- https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
+- https://github.com/peass-ng/PEASS-ng
 - https://github.com/mostaphabahadou/postenum
 - https://github.com/rebootuser/LinEnum
 - https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
