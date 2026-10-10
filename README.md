@@ -1501,7 +1501,7 @@ Mac M1 使用 Vulnhub 等 ova 格式镜像，需要将 ova 格式转为 qcow2，
 - python arsenal for RE: https://pythonarsenal.com/ 逆向工程工具集
 - IDA Pro: https://hex-rays.com/ida-pro/
 - IDA Pro MCP: https://github.com/mrexodia/ida-pro-mcp 集成 AI 的 IDA Pro 工具
-- REA (Reverse Engineer Anything): https://github.com/morluto/rea 本地 CLI/MCP 逆向工具，向 AI 提供二进制、托管代码与 JavaScript/Electron 应用的证据；Native 深度分析需自备 Hopper/Ghidra/IDA，附带 [reverse-engineer-anything Skill](https://github.com/morluto/rea/tree/main/skill-src/reverse-engineer-anything)
+- REA (Reverse Engineer Anything): https://github.com/morluto/rea 本地 CLI/MCP 逆向工具，向 AI 提供二进制、托管代码与 JavaScript/Electron 应用的证据；Native 深度分析需自备 Hopper/Ghidra/IDA，附带 [reverse-engineer-anything Skill](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything)
 - Angr: https://github.com/angr/angr 二进制分析平台
 - Cutter: https://cutter.re/ 开源逆向工程平台
 - UPX: https://github.com/upx/upx
